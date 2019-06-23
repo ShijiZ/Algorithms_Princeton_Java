@@ -1,0 +1,43 @@
+public class Date {
+    private final int month;
+    private final int day;
+    private final int year;
+
+    //Initializes a new date from the month, day, and year.
+    public Date(int m, int d, int y){
+        month = m;
+        day = d;
+        year = y;
+    }
+
+    // Return the month.
+    public int month(){
+        return month;
+    }
+
+    // Return the day.
+    public int day(){
+        return day;
+    }
+
+    // Return the year.
+    public int year(){
+        return year;
+    }
+
+    // Returns a string representation of this date.
+    public String toString(){
+        return month+"/"+day+"/"+year;
+    }
+
+    // Test client code
+    public static void main(String[] args){
+        int m = Integer.parseInt(args[0]);
+        int d = Integer.parseInt(args[1]);
+        int y = Integer.parseInt(args[2]);
+
+        Date date = new Date(m, d, y);
+
+        StdOut.println(date);
+    }
+}
