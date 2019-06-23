@@ -14,4 +14,9 @@ The .java files in the repository including:
 ### 1.2 Data Abstraction
  - [Counter.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Counter.java)
  - [Flips.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Flips.java)
+ - [Date.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Date.java)
+ - [Accumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Accumulator.java)
+ - [TestAcumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TestAccumulator.java)
+ - [VisualAccumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/VisualAccumulator.java)
+ - [TestVisualAccumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TestVisualAccumulator.java)
 
