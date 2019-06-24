@@ -30,6 +30,16 @@ public class Date {
         return month+"/"+day+"/"+year;
     }
 
+    // Compares this date to the specified date.
+    public boolean equals(Object other){
+        if (other == this) return true;
+        if (other == null) return false;
+        if (other.getClass() != this.getClass()) return false;
+        Date that = (Date) other;
+        return (this.month == that.month)&&(this.day == that.day)&&(this.year == that.year);
+    }
+
+
     // Test client code
     public static void main(String[] args){
         int m = Integer.parseInt(args[0]);
