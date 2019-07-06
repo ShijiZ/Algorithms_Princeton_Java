@@ -21,3 +21,6 @@ The .java files in the repository including:
  - [TestVisualAccumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TestVisualAccumulator.java)
  - [StaticSetOfInts.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/StaticSetOfInts.java)
  - [WhiteList.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/WhiteList.java)
+ - [FixedCapacityStackOfStrings.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/FixedCapacityStackOfStrings.java)
+ - [FixedCapacityStack.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/FixedCapacityStack.java)
+ - [ResizingArrayStack.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/ResizingArrayStack.java)
