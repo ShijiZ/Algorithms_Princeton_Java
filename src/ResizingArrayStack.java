@@ -55,9 +55,7 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
             return a[--i];
         }
 
-        public void remove(){
-
-        }
+        public void remove(){ }
     }
 
     public static void main(String[] args){
