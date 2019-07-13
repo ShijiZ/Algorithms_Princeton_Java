@@ -1,3 +1,7 @@
+/*
+ * Sample usage: java-alg4 FixedCapacityStack < tobe.txt
+ */
+
 public class FixedCapacityStack<Item> {
     private Item[] a; //stack entries
     private int N;      // sizes

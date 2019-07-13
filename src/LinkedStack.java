@@ -1,3 +1,7 @@
+/*
+ * Sample usage: java-alg4 LinkedStack < tobe.txt
+ */
+
 import java.util.Iterator;
 
 public class LinkedStack<Item> implements Iterable<Item> {

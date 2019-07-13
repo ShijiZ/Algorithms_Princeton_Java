@@ -1,3 +1,7 @@
+/*
+ * Sample usage: java-alg4 Date 12 31 1999
+ */
+
 public class Date {
     private final int month;
     private final int day;

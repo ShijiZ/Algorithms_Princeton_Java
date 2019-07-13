@@ -1,3 +1,7 @@
+/*
+ * Sample usage: java-alg4 Flips 100
+ */
+
 public class Flips {
     public static void main(String[] args){
         int T = Integer.parseInt(args[0]);

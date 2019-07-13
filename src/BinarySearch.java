@@ -1,3 +1,7 @@
+/*
+ * Sample usage: java-alg4 BinarySearch tinyW.txt < tinyT.txt
+ */
+
 import java.util.Arrays;
 
 public class BinarySearch

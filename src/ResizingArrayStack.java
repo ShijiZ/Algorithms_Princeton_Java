@@ -1,3 +1,7 @@
+/*
+ * Sample usage: java-alg4 ResizingArrayStack < tobe.txt
+ */
+
 import java.util.Iterator;
 public class ResizingArrayStack<Item> implements Iterable<Item> {
     private Item[] a = (Item[]) new Object[1]; //stack entries

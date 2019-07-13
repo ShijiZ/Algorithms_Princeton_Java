@@ -1,3 +1,7 @@
+/*
+ * Sample usage: java-alg4 LinkedBag < tobe.txt
+ */
+
 import java.util.Iterator;
 
 public class LinkedBag<Item> implements Iterable<Item> {

@@ -1,3 +1,7 @@
+/*
+ * Sample usage: java-alg4 WhiteList tinyW.txt < tinyT.txt
+ */
+
 public class WhiteList {
 
     public static void main(String[] args){

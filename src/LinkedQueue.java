@@ -1,3 +1,7 @@
+/*
+ * Sample usage: java-alg4 LinkedQueue < tobe.txt
+ */
+
 import java.util.Iterator;
 
 public class LinkedQueue<Item> implements Iterable<Item>{
