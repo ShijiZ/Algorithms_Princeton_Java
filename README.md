@@ -23,6 +23,8 @@ The .java files and their corresponding pages on the textbook including:
  - [TestVisualAccumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TestVisualAccumulator.java) (Page 94)
  - [StaticSetOfInts.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/StaticSetOfInts.java) (Page 98)
  - [WhiteList.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/WhiteList.java) (Page 98)
+
+### 1.3 Bags, Queues and Stacks
  - [Stats.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Stats.java) (Page 124)
  - [ReadInts.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/ReadInts.java) (Page 126)
  - [Reverse.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Reverse.java) (Page 127)
