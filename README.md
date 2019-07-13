@@ -2,7 +2,7 @@
 
 This repository is used to store files generated during my learning process of the textbook <a href = "http://amzn.to/13VNJi7">Algorithms, 4th Edition</a> by Robert Sedgewick and Kevin Wayne. The official website of the book can be found <a href = "https://algs4.cs.princeton.edu/home/">here</a>.
 
-All .java source files are stored in src/, and all data files used to test .java files are stored in data/.
+All .java source files are stored in directory [src](https://github.com/ShijiZ/Algorithms_Princeton_Java/tree/master/src), and all data files used to test .java files are stored in directory [data](https://github.com/ShijiZ/Algorithms_Princeton_Java/tree/master/data).
 
 The .java files and their corresponding pages on the textbook including:
 
