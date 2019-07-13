@@ -2,6 +2,8 @@
 
 This repository is used to store files generated during my learning process of the textbook <a href = "http://amzn.to/13VNJi7">Algorithms, 4th Edition</a> by Robert Sedgewick and Kevin Wayne. The official website of the book can be found <a href = "https://algs4.cs.princeton.edu/home/">here</a>.
 
+All .java source files are stored in src/, and all data files used to test .java files are stored in data/.
+
 The .java files and their corresponding pages on the textbook including:
 
 
@@ -21,6 +23,10 @@ The .java files and their corresponding pages on the textbook including:
  - [TestVisualAccumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TestVisualAccumulator.java) (Page 94)
  - [StaticSetOfInts.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/StaticSetOfInts.java) (Page 98)
  - [WhiteList.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/WhiteList.java) (Page 98)
+ - [Stats.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Stats.java) (Page 124)
+ - [ReadInts.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/ReadInts.java) (Page 126)
+ - [Reverse.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Reverse.java) (Page 127)
+ - [Evaluate.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Evaluate.java) (Page 128)
  - [FixedCapacityStackOfStrings.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/FixedCapacityStackOfStrings.java) (Page 132)
  - [FixedCapacityStack.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/FixedCapacityStack.java) (Page 134)
  - [ResizingArrayStack.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/ResizingArrayStack.java) (Page 136)
