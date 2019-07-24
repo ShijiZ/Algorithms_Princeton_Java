@@ -35,3 +35,8 @@ The .java files and their corresponding pages on the textbook including:
  - [LinkedStack.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LinkedStack.java) (Page 147)
  - [LinkedQueue.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LinkedQueue.java) (Page 150)
  - [LinkedBag.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LinkedBag.java) (Page 154)
+
+### 1.4 Analysis of Algorithms
+ - [ThreeSum.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/ThreeSum.java) (Page 173)
+ - [StopWatch.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/StopWatch.java) (Page 174)
+ - [DoublingTest.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DoublingTest.java) (Page 176)
