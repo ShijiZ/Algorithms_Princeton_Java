@@ -1,9 +1,9 @@
 /*
- * Sample usage: java-alg4 DoublingTest
+ * Sample usage: java-alg4 DoublingRatio
  * Note: This script never stops unless interrupted
  */
 
-public class DoublingTest {
+public class DoublingRatio {
     public static double timeTrial(int N){
         // Time ThreeSum.count() for N random 6-digit ints.
         int MAX = 1000000;
@@ -16,11 +16,12 @@ public class DoublingTest {
     }
 
     public static void main(String[] args){
-        // Print table of running times.
-        for (int N = 250; true; N += N) {
-            // Print time for problem size N.
+        double prev = timeTrial(125);
+        for (int N = 250; true; N += N){
             double time = timeTrial(N);
-            StdOut.printf("%7d %5.1f\n", N, time);
+            StdOut.printf("%6d %7.1f", N, time);
+            StdOut.printf("%5.1f\n", time/prev);
+            prev = time;
         }
     }
 }
