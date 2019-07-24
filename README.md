@@ -40,3 +40,6 @@ The .java files and their corresponding pages on the textbook including:
  - [ThreeSum.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/ThreeSum.java) (Page 173)
  - [StopWatch.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/StopWatch.java) (Page 174)
  - [DoublingTest.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DoublingTest.java) (Page 176)
+ - [TwoSumFast.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TwoSumFast.java) (Page 189)
+ - [ThreeSumFast.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DThreeSumFast.java) (Page 190)
+ - [DoublingRatio.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DoublingRatio.java) (Page 192)
