@@ -1,3 +1,8 @@
+/*
+ * Sample usage: java-alg4 OptimalUF < tinyUF.txt
+ * Sample usage: java-alg4 OptimalUF < mediumUF.txt
+ */
+
 public class OptimalUF {
     private int[] id;     // access to component id (site indexed)
     private int[] sz;     // size of component for roots (site indexed)
