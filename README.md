@@ -43,3 +43,9 @@ The .java files and their corresponding pages on the textbook including:
  - [TwoSumFast.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TwoSumFast.java) (Page 189)
  - [ThreeSumFast.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DThreeSumFast.java) (Page 190)
  - [DoublingRatio.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DoublingRatio.java) (Page 192)
+
+### 1.5 Case Study: Union-Find
+ - [QuickFindUF.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/QuickFindUF.java) (Page 222)
+ - [QuickUnionUF.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/QuickUnionUF.java) (Page 224)
+ - [WeightedQuickUnionUF.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/WeightedQuickUnionUF.java) (Page 228)
+ - [OptimalUF.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/OptimalUF.java) (Page 231)
