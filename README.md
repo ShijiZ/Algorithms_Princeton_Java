@@ -49,3 +49,15 @@ The .java files and their corresponding pages on the textbook including:
  - [QuickUnionUF.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/QuickUnionUF.java) (Page 224)
  - [WeightedQuickUnionUF.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/WeightedQuickUnionUF.java) (Page 228)
  - [OptimalUF.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/OptimalUF.java) (Page 231)
+
+## Chapter 2: Sorting
+
+
+### 2.1 Elementary Sorts
+ - [Selection.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Selection.java) (Page 248)
+ - [Insertion.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Insertion.java) (Page 250)
+ - [InsertionX.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/InsertionX.java) (Page 252)
+ - [SortCompare.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/SortCompare.java) (Page 254)
+ - [Shell.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Shell.java) (Page 258)
+
+### 2.2 Mergesort
