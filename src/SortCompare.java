@@ -9,8 +9,10 @@ public class SortCompare {
         if (alg.equals("Insertion")) Insertion.sort(a);
         if (alg.equals("InsertionX")) InsertionX.sort(a);
         if (alg.equals("Shell")) Shell.sort(a);
-        //if (alg.equals("Merge")) Merge.sort(a);
-        //if (alg.equals("Quick")) Quick.sort(a);
+        if (alg.equals("Merge")) Merge.sort(a);
+        if (alg.equals("MergeBU")) MergeBU.sort(a);
+        if (alg.equals("Quick")) Quick.sort(a);
+        if (alg.equals("Quick3way")) Quick3way.sort(a);
         //if (alg.equals("Heap")) Heap.sort(a);
         return timer.elapsedTime();
     }
