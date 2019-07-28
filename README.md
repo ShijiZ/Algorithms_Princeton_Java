@@ -61,3 +61,11 @@ The .java files and their corresponding pages on the textbook including:
  - [Shell.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Shell.java) (Page 258)
 
 ### 2.2 Mergesort
+ - [Merge.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Merge.java) (Page 270)
+ - [MergeBU.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/MergeBU.java) (Page 277)
+ 
+### 2.3 QuickSort
+ - [Quick.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Quick.java) (Page 288)
+ - [Quick3way.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Quick3way.java) (Page 296)
+ 
+### 2.4 Priority Queues
