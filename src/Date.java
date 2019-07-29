@@ -14,6 +14,16 @@ public class Date {
         year = y;
     }
 
+    public Date(String date) {
+        String[] fields = date.split("/");
+        if (fields.length != 3) {
+            throw new IllegalArgumentException("Invalid date");
+        }
+        month = Integer.parseInt(fields[0]);
+        day = Integer.parseInt(fields[1]);
+        year = Integer.parseInt(fields[2]);
+    }
+
     // Return the month.
     public int month(){
         return month;
