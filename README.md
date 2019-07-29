@@ -14,9 +14,10 @@ The .java files and their corresponding pages on the textbook including:
  - [BinarySearch.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BinarySearch.java) (Page 46)
 
 ### 1.2 Data Abstraction
+ - [Date.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Date.java) (Page 79)
+ - [Transaction.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Transaction.java) (Page 79)
  - [Counter.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Counter.java) (Page 84)
  - [Flips.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Flips.java) (Page 84)
- - [Date.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Date.java) (Page 90)
  - [Accumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Accumulator.java) (Page 92)
  - [TestAcumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TestAccumulator.java) (Page 92)
  - [VisualAccumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/VisualAccumulator.java) (Page 94)
@@ -69,3 +70,10 @@ The .java files and their corresponding pages on the textbook including:
  - [Quick3way.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Quick3way.java) (Page 296)
  
 ### 2.4 Priority Queues
+ - [TopM.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TopM.java) (Page 310)
+ - [MaxPQ.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/MaxPQ.java) (Page 313)
+ - [MinPQ.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/MinPQ.java) (Page 313)
+ - [IndexMaxPQ.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/IndexMaxPQ.java) (Page 320)
+ - [IndexMinPQ.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/IndexMinPQ.java) (Page 320)
+ - [Multiway.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Multiway.java) (Page 321)
+ - [Heap.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Heap.java) (Page 323)
