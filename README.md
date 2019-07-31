@@ -77,3 +77,11 @@ The .java files and their corresponding pages on the textbook including:
  - [IndexMinPQ.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/IndexMinPQ.java) (Page 320)
  - [Multiway.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Multiway.java) (Page 321)
  - [Heap.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Heap.java) (Page 323)
+
+## Chapter 3: Searching
+
+
+### 3.1 Symbol Tables
+ - [FrequencyCounter.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/FrequencyCounter.java) (Page 371)
+ - [SequentialSearchST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/SequentialSearchST.java) (Page 374)
+ - [BinarySearchST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BinarySearchST.java) (Page 378)
