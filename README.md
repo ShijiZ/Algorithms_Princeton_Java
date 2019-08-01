@@ -90,3 +90,6 @@ The .java files and their corresponding pages on the textbook including:
  - [BST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BST.java) (Page 397)
  
 ### 3.3 Balanced Search Trees
+ - [RedBlackBST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/RedBlackBST.java) (Page 432)
+
+### 3.4 Hash Tables
