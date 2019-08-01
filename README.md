@@ -85,3 +85,8 @@ The .java files and their corresponding pages on the textbook including:
  - [FrequencyCounter.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/FrequencyCounter.java) (Page 371)
  - [SequentialSearchST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/SequentialSearchST.java) (Page 374)
  - [BinarySearchST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BinarySearchST.java) (Page 378)
+
+### 3.2 Binary Search Trees
+ - [BST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BST.java) (Page 397)
+ 
+### 3.3 Balanced Search Trees
