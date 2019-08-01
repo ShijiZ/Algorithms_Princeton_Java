@@ -8,7 +8,8 @@ public class FrequencyCounter {
         int minlen = Integer.parseInt(args[0]);  // key-length cutoff
 
         // st could be: SequentialSearchST, BinarySearchST, BST,
-        BST<String, Integer> st = new BST<String, Integer>();
+        // RedBlackBST
+        RedBlackBST<String, Integer> st = new RedBlackBST<String, Integer>();
         while(!StdIn.isEmpty()){
             // Build symbol table and count frequencies.
             String word = StdIn.readString();
