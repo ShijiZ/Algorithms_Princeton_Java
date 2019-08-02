@@ -93,3 +93,5 @@ The .java files and their corresponding pages on the textbook including:
  - [RedBlackBST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/RedBlackBST.java) (Page 432)
 
 ### 3.4 Hash Tables
+ - [SeparateChainingST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/SeparateChainingST.java) (Page 464)
+ - [LinearProbingHashST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LinearProbingHashST.java) (Page 469)
