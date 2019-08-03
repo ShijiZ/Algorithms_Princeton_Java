@@ -95,3 +95,10 @@ The .java files and their corresponding pages on the textbook including:
 ### 3.4 Hash Tables
  - [SeparateChainingST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/SeparateChainingST.java) (Page 464)
  - [LinearProbingHashST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LinearProbingHashST.java) (Page 469)
+ 
+### 3.5 Applications
+ - [ST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/ST.java) (Page 489)
+ - [SET.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/SET.java) (Page 490)
+ - [DeDup.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DeDup.java) (Page 490)
+ - [WhiteFilter.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/WhiteFilter.java) (Page 491)
+ - [BlackFilter.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BlackFilter.java) (Page 491)
