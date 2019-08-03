@@ -1,5 +1,5 @@
 /*
- * Sample usage: java WhiteFilter list.txt < tinyTale.txt
+ * Sample usage: java-alg4 WhiteFilter list.txt < tinyTale.txt
  */
 
 public class WhiteFilter {

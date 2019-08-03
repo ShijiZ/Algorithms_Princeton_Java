@@ -1,5 +1,5 @@
 /*
- * Sample usage: java BlackFilter list.txt < tinyTale.txt
+ * Sample usage: java-alg4 BlackFilter list.txt < tinyTale.txt
  */
 
 public class BlackFilter {
