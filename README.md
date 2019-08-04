@@ -105,3 +105,4 @@ The .java files and their corresponding pages on the textbook including:
  - [LookupCSV.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LookupCSV.java) (Page 492)
  - [LookupIndex.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LookupIndex.java) (Page 496)
  - [FileIndex.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/FileIndex.java) (Page 500)
+ - [SparseVector.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/SparseVector.java) (Page 502)
