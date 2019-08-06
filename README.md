@@ -106,3 +106,12 @@ The .java files and their corresponding pages on the textbook including:
  - [LookupIndex.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LookupIndex.java) (Page 496)
  - [FileIndex.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/FileIndex.java) (Page 500)
  - [SparseVector.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/SparseVector.java) (Page 502)
+
+## Chapter 4: Graphs
+
+
+### 4.1 Undirected Graphs
+ - [Graph.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Graph.java) (Page 522)
+ - [DepthFirstSearch.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DepthFirstSearch.java) (Page 530)
+ - [DepthFirstPaths.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DepthFirstPaths.java) (Page 535)
+ - [BreadthFirstPaths.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BreadthFirstPaths.java) (Page 538)
