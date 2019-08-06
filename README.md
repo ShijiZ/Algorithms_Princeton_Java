@@ -115,3 +115,6 @@ The .java files and their corresponding pages on the textbook including:
  - [DepthFirstSearch.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DepthFirstSearch.java) (Page 530)
  - [DepthFirstPaths.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DepthFirstPaths.java) (Page 535)
  - [BreadthFirstPaths.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BreadthFirstPaths.java) (Page 538)
+ - [CC.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/CC.java) (Page 543)
+ - [Cycle.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Cycle.java) (Page 546)
+ - [TwoColor.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TwoColor.java) (Page 546)
