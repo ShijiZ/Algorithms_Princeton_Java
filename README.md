@@ -123,6 +123,10 @@ The .java files and their corresponding pages on the textbook including:
 
 ### 4.2 Directed Graphs
  - [Digraph.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Digraph.java) (Page 568)
+ - [SymbolDigraph.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/SymbolDigraph.java) (Page 568)
  - [DirectedDFS.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DirectedDFS.java) (Page 570)
  - [DepthFirstDirectedPaths.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DepthFirstDirectedPaths.java) (Page 573)
  - [BreadthFirstDirectedPaths.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BreadthFirstDirectedPaths.java) (Page 573)
+ - [DirectedCycle.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DirectedCycle.java) (Page 574)
+ - [DepthFirstOrder.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DepthFirstOrder.java) (Page 578)
+ - [Topological.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Topological.java) (Page 578)
