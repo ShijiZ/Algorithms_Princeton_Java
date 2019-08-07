@@ -122,3 +122,5 @@ The .java files and their corresponding pages on the textbook including:
  - [DegreesOfSeparation.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DegreesOfSeparation.java) (Page 553)
 
 ### 4.2 Directed Graphs
+ - [Digraph.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Digraph.java) (Page 568)
+ - [DirectedDFS.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DirectedDFS.java) (Page 570)
