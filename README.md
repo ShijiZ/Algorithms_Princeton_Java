@@ -118,3 +118,7 @@ The .java files and their corresponding pages on the textbook including:
  - [CC.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/CC.java) (Page 543)
  - [Cycle.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Cycle.java) (Page 546)
  - [TwoColor.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TwoColor.java) (Page 546)
+ - [SymbolGraph.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/SymbolGraph.java) (Page 548)
+ - [DegreesOfSeparation.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DegreesOfSeparation.java) (Page 553)
+
+### 4.2 Directed Graphs
