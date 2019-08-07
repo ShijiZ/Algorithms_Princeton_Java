@@ -1,21 +1,21 @@
 /*
- * Sample usage: java-alg4 BreadthFirstPaths tinyG.txt 0
- * Sample usage: java-alg4 BreadthFirstPaths mediumG.txt 0
+ * Sample usage: java-alg4 BreadthFirstDirectedPaths tinyDG.txt 3
+ * Sample usage: java-alg4 BreadthFirstDirectedPaths mediumDG.txt 3
  */
 
-public class BreadthFirstPaths {
+public class BreadthFirstDirectedPaths {
     private boolean[] marked;   // marked[v] = is there a shortest s-v path?
     private int[] edgeTo;       // last vertex on known path to this vertex
     private final int s;        // the source
 
-    public BreadthFirstPaths(Graph G, int s){
+    public BreadthFirstDirectedPaths(Digraph G, int s){
         marked = new boolean[G.V()];
         edgeTo = new int[G.V()];
         this.s = s;
         bfs(G, s);
     }
 
-    private void bfs(Graph G, int s){
+    private void bfs(Digraph G, int s){
         LinkedQueue<Integer> queue = new LinkedQueue<>();
         marked[s] = true;            // mark the source
         queue.enqueue(s);            // put source in the queue
@@ -48,16 +48,16 @@ public class BreadthFirstPaths {
     }
 
     public static void main(String[] args){
-        Graph G = new Graph(new In(args[0]));
+        Digraph G = new Digraph(new In(args[0]));
         int s = Integer.parseInt(args[1]);
-        BreadthFirstPaths search = new BreadthFirstPaths(G, s);
+        BreadthFirstDirectedPaths bfs = new BreadthFirstDirectedPaths(G, s);
 
         for (int v=0; v<G.V(); v++){
             StdOut.print(s + " to " + v + ": ");
-            if (search.hasPathTo(v)){
-                for (int x: search.pathTo(v))
+            if (bfs.hasPathTo(v)){
+                for (int x: bfs.pathTo(v))
                     if (x==s) StdOut.print(x);
-                    else StdOut.print("-"+x);
+                    else StdOut.print("->"+x);
                 StdOut.println();
             }
 

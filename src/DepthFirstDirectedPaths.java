@@ -1,21 +1,21 @@
 /*
- * Sample usage: java-alg4 DepthFirstPaths tinyG.txt 0
- * Sample usage: java-alg4 DepthFirstPaths mediumG.txt 0
+ * Sample usage: java-alg4 DepthFirstDirectedPaths tinyDG.txt 3
+ * Sample usage: java-alg4 DepthFirstDirectedPaths mediumDG.txt 3
  */
 
-public class DepthFirstPaths {
+public class DepthFirstDirectedPaths {
     private boolean[] marked;   // marked[v] = is there a s-v path?
     private int[] edgeTo;       // last vertex on known path to this vertex
     private final int s;        // the source
 
-    public DepthFirstPaths(Graph G, int s){
+    public DepthFirstDirectedPaths(Digraph G, int s){
         marked = new boolean[G.V()];
         edgeTo = new int[G.V()];
         this.s = s;
         dfs(G, s);
     }
 
-    private void dfs(Graph G, int v){
+    private void dfs(Digraph G, int v){
         marked[v] = true;
         for (int w : G.adj(v))
             if (!marked[w]){
@@ -42,17 +42,17 @@ public class DepthFirstPaths {
     }
 
     public static void main(String[] args){
-        Graph G = new Graph(new In(args[0]));
+        Digraph G = new Digraph(new In(args[0]));
         int s = Integer.parseInt(args[1]);
-        DepthFirstPaths search = new DepthFirstPaths(G, s);
+        DepthFirstDirectedPaths dfs = new DepthFirstDirectedPaths(G, s);
 
         for (int v=0; v<G.V(); v++){
             StdOut.print(s + " to " + v + ": ");
-            if (search.hasPathTo(v)){
-                for (int x: search.pathTo(v))
+            if (dfs.hasPathTo(v)){
+                for (int x: dfs.pathTo(v))
                     if (x==s) StdOut.print(x);
-                    else StdOut.print("-"+x);
-            StdOut.println();
+                    else StdOut.print("->"+x);
+                StdOut.println();
             }
 
             else StdOut.print("not connected\n");
