@@ -134,3 +134,5 @@ The .java files and their corresponding pages on the textbook including:
  - [TransitiveClosure.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TransitiveClosure.java) (Page 590)
 
 ### 4.3 Minimum Spanning Trees
+ - [Edge.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Edge.java) (Page 608)
+ - [EdgeWeightedGraph.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/EdgeWeightedGraph.java) (Page 608)
