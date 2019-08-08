@@ -130,3 +130,7 @@ The .java files and their corresponding pages on the textbook including:
  - [DirectedCycle.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DirectedCycle.java) (Page 574)
  - [DepthFirstOrder.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DepthFirstOrder.java) (Page 578)
  - [Topological.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Topological.java) (Page 578)
+ - [KosarajuSCC.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/KosarajuSCC.java) (Page 584)
+ - [TransitiveClosure.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TransitiveClosure.java) (Page 590)
+
+### 4.3 Minimum Spanning Trees
