@@ -81,8 +81,8 @@ public class IndexMinPQ<Key extends Comparable<Key>> {
     // Change the key associated with index i to the specified value.
     public void change(int i, Key key){
         keys[i] = key;
-        swim(pq[i]);
-        sink(pq[i]);
+        swim(qp[i]);
+        sink(qp[i]);
     }
 
     // Returns the minimum key.
