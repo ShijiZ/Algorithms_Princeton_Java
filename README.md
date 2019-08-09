@@ -136,3 +136,6 @@ The .java files and their corresponding pages on the textbook including:
 ### 4.3 Minimum Spanning Trees
  - [Edge.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Edge.java) (Page 608)
  - [EdgeWeightedGraph.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/EdgeWeightedGraph.java) (Page 608)
+ - [LazyPrimMST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LazyPrimMST.java) (Page 616)
+ - [PrimMST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/PrimMST.java) (Page 620)
+ - [KruskalMST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/KruskalMST.java) (Page 624)
