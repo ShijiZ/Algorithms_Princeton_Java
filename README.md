@@ -139,3 +139,9 @@ The .java files and their corresponding pages on the textbook including:
  - [LazyPrimMST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LazyPrimMST.java) (Page 616)
  - [PrimMST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/PrimMST.java) (Page 620)
  - [KruskalMST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/KruskalMST.java) (Page 624)
+
+### 4.4 Shortest Paths
+ - [DirecetdEdge.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DirecetdEdge.java) (Page 641)
+ - [EdgeWeightedDigraph.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/EdgeWeightedDigraph.java) (Page 641)
+ - [DijkstraSP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DijkstraSP.java) (Page 652)
+ - [DijkstraAllPairsSP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DijkstraAllPairsSP.java) (Page 656)
