@@ -145,3 +145,7 @@ The .java files and their corresponding pages on the textbook including:
  - [EdgeWeightedDigraph.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/EdgeWeightedDigraph.java) (Page 641)
  - [DijkstraSP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DijkstraSP.java) (Page 652)
  - [DijkstraAllPairsSP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DijkstraAllPairsSP.java) (Page 656)
+ - [AcyclicSP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/AcyclicSP.java) (Page 658)
+ - [EdgeWeightedDirectedCycle.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/EdgeWeightedDirectedCycle.java) (Page 658)
+ - [AcyclicLP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/AcyclicLP.java) (Page 661)
+ - [CPM.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/CPM.java) (Page 663)
