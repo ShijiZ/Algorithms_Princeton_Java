@@ -149,3 +149,5 @@ The .java files and their corresponding pages on the textbook including:
  - [EdgeWeightedDirectedCycle.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/EdgeWeightedDirectedCycle.java) (Page 658)
  - [AcyclicLP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/AcyclicLP.java) (Page 661)
  - [CPM.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/CPM.java) (Page 663)
+ - [BellmanFordSP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BellmanFordSP.java) (Page 668)
+ - [Arbitrage.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Arbitrage.java) (Page 679)
