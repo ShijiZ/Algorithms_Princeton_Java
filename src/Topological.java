@@ -13,6 +13,14 @@ public class Topological {
         }
     }
 
+    public Topological(EdgeWeightedDigraph G){
+        EdgeWeightedDirectedCycle cyclefinder = new EdgeWeightedDirectedCycle(G);
+        if (!cyclefinder.hasCycle()){
+            DepthFirstOrder dfs = new DepthFirstOrder(G);
+            order = dfs.reversePost();
+        }
+    }
+
     public Iterable<Integer> order(){
         return order;
     }
