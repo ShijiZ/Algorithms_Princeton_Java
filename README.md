@@ -151,3 +151,11 @@ The .java files and their corresponding pages on the textbook including:
  - [CPM.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/CPM.java) (Page 663)
  - [BellmanFordSP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BellmanFordSP.java) (Page 668)
  - [Arbitrage.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Arbitrage.java) (Page 679)
+
+## Chapter 5: Strings
+
+
+### 5.1 String Sorts
+ - [LSD.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LSD.java) (Page 706)
+ - [MSD.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/MSD.java) (Page 710)
+ - [Quick3string.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Quick3string.java) (Page 719)
