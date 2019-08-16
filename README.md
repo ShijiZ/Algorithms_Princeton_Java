@@ -165,3 +165,4 @@ The .java files and their corresponding pages on the textbook including:
  - [TST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TST.java) (Page 746)
 
 ### 5.3 Substring Search
+ - [KMP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/KMP.java) (Page 762)
