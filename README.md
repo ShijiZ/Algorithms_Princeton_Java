@@ -159,3 +159,9 @@ The .java files and their corresponding pages on the textbook including:
  - [LSD.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LSD.java) (Page 706)
  - [MSD.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/MSD.java) (Page 710)
  - [Quick3string.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Quick3string.java) (Page 719)
+
+### 5.2 Tries
+ - [TrieST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TrieST.java) (Page 732)
+ - [TST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TST.java) (Page 746)
+
+### 5.3 Substring Search
