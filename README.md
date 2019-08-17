@@ -166,3 +166,5 @@ The .java files and their corresponding pages on the textbook including:
 
 ### 5.3 Substring Search
  - [KMP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/KMP.java) (Page 762)
+ - [BoyerMoore.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BoyerMoore.java) (Page 770)
+ - [RabinKarp.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/RabinKarp.java) (Page 774)
