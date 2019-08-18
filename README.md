@@ -168,3 +168,7 @@ The .java files and their corresponding pages on the textbook including:
  - [KMP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/KMP.java) (Page 762)
  - [BoyerMoore.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BoyerMoore.java) (Page 770)
  - [RabinKarp.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/RabinKarp.java) (Page 774)
+
+### 5.4 Regular Expressions
+ - [NFA.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/NFA.java) (Page 794)
+ - [GREP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/GREP.java) (Page 804)
