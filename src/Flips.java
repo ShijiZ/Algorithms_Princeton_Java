@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 Flips 100
+ * Sample usage: java Flips 100
  */
 
 public class Flips {

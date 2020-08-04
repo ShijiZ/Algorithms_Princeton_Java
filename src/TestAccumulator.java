@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 TestAccumulator 1000
+ * Sample usage: java TestAccumulator 1000
  */
 
 public class TestAccumulator {

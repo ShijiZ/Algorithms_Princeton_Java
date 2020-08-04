@@ -12,6 +12,11 @@ public class StaticSetOfInts {
         Arrays.sort(a);
     }
 
+    // Is the key in this set of integers?
+    public boolean contains(int key){
+        return rank(key) != -1;
+    }
+
     // Returns either the index of the search key in the sorted array
     // (if the key is in the set) or -1 (if the key is not in the set).
     private int rank(int key){
@@ -27,10 +32,4 @@ public class StaticSetOfInts {
         }
         return -1;
     }
-
-    // Is the key in this set of integers?
-    public boolean contains(int key){
-        return rank(key) != -1;
-    }
-
 }

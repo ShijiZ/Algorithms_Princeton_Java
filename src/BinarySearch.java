@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 BinarySearch tinyW.txt < tinyT.txt
+ * Sample usage: java BinarySearch tinyW.txt < tinyT.txt
  */
 
 import java.util.Arrays;

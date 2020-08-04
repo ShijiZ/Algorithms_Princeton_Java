@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 TestVisualAccumulator 1000
+ * Sample usage: java TestVisualAccumulator 1000
  */
 
 public class TestVisualAccumulator {

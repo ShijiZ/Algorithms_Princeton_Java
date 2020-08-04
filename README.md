@@ -14,8 +14,8 @@ The .java files and their corresponding pages on the textbook including:
  - [BinarySearch.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BinarySearch.java) (Page 46)
 
 ### 1.2 Data Abstraction
- - [Date.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Date.java) (Page 79)
- - [Transaction.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Transaction.java) (Page 79)
+ - [Date.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Date.java) (Page 78)
+ - [Transaction.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Transaction.java) (Page 78)
  - [Counter.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Counter.java) (Page 84)
  - [Flips.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Flips.java) (Page 84)
  - [Accumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Accumulator.java) (Page 92)

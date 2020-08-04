@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 Date 12 31 1999
+ * Sample usage: java Date 12 31 1999
  */
 
 public class Date {
@@ -7,13 +7,14 @@ public class Date {
     private final int day;
     private final int year;
 
-    //Initializes a new date from the month, day, and year.
+    // Initializes a new date from the month, day, and year.
     public Date(int m, int d, int y){
         month = m;
         day = d;
         year = y;
     }
 
+    // Initializes new date specified as a string in form MM/DD/YYYY.
     public Date(String date) {
         String[] fields = date.split("/");
         if (fields.length != 3) {

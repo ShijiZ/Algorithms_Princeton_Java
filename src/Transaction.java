@@ -1,21 +1,20 @@
 /*
- * Sample usage: java-alg4 Transaction
+ * Sample usage: java Transaction
  */
-
-import java.util.Arrays;
 
 public class Transaction implements Comparable<Transaction>{
     private final String who;
     private final Date when;
     private final double amount;
 
-    //Initializes a new transaction with who, when, and amount.
+    // Initializes a new transaction with who, when, and amount.
     public Transaction(String who, Date when, double amount){
         this.who = who;
         this.when = when;
         this.amount = amount;
     }
 
+    // Initializes a new transaction by parsing a string of the form NAME DATE AMOUNT.
     public Transaction(String transaction) {
         String[] a = transaction.split("\\s+");
         who = a[0];

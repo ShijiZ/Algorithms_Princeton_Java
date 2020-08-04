@@ -26,6 +26,6 @@ public class VisualAccumulator {
 
     // Returns a string representation of this accumulator.
     public String toString(){
-        return "Mean ("+N+"values): "+String.format("%7.5f",mean());
+        return "Mean ("+N+" values): "+String.format("%7.5f",mean());
     }
 }

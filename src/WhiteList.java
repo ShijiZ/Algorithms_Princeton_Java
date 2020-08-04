@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 WhiteList tinyW.txt < tinyT.txt
+ * Sample usage: java WhiteList tinyW.txt < tinyT.txt
  */
 
 public class WhiteList {
@@ -15,6 +15,5 @@ public class WhiteList {
             int key = StdIn.readInt();
             if (!set.contains(key))
                 StdOut.println(key);}
-
     }
 }
