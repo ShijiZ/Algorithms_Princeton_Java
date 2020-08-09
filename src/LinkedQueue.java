@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 LinkedQueue < tobe.txt
+ * Sample usage: java LinkedQueue < tobe.txt
  */
 
 import java.util.Iterator;
@@ -50,7 +50,7 @@ public class LinkedQueue<Item> implements Iterable<Item>{
     }
 
     public Iterator<Item> iterator(){
-        return new LinkedQueue.ListIterator();
+        return new ListIterator();
     }
 
     private class ListIterator implements Iterator<Item>{

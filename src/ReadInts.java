@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 ReadInts < numbers.txt
+ * Sample usage: java ReadInts < numbers.txt
  */
 
 public class ReadInts {

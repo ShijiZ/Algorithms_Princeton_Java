@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 Reverse < numbers.txt
+ * Sample usage: java Reverse < numbers.txt
  */
 
 public class Reverse {

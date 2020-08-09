@@ -1,5 +1,5 @@
 /*
-* Sample usage: java-alg4 Stats < numbers.txt
+* Sample usage: java Stats < numbers.txt
 */
 
 public class Stats {

@@ -1,11 +1,12 @@
 /*
- * Sample usage: java-alg4 ResizingArrayStack < tobe.txt
+ * Sample usage: java ResizingArrayStack < tobe.txt
  */
 
 import java.util.Iterator;
+
 public class ResizingArrayStack<Item> implements Iterable<Item> {
     private Item[] a = (Item[]) new Object[1]; //stack entries
-    private int N;      // sizes
+    private int N;      // size
 
     public boolean isEmpty(){
         return N==0;
@@ -29,14 +30,15 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
         if (N == a.length){
             resize(2*a.length);
         }
-        a[N++] = item;
+        a[N] = item;
+        N++;
     }
 
     public Item pop(){
         // Remove item from top of the stack
-        Item item = a[N-1];
-        a[N-1] = null;  // Avoid loitering
         N--;
+        Item item = a[N];
+        a[N] = null;  // Avoid loitering
         if (N > 0 && N == a.length/4){
             resize(a.length/2);
         }
@@ -56,7 +58,8 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
         }
 
         public Item next(){
-            return a[--i];
+            i--;
+            return a[i];
         }
 
         public void remove(){ }

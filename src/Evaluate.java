@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 Evaluate < Arithmetic1.txt
- * Sample usage: java-alg4 Evaluate < Arithmetic2.txt
+ * Sample usage: java Evaluate < Arithmetic1.txt
+ * Sample usage: java Evaluate < Arithmetic2.txt
  */
 
 public class Evaluate {

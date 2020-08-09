@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 LinkedStack < tobe.txt
+ * Sample usage: java LinkedStack < tobe.txt
  */
 
 import java.util.Iterator;
@@ -40,7 +40,7 @@ public class LinkedStack<Item> implements Iterable<Item> {
     }
 
     public Iterator<Item> iterator(){
-        return new LinkedStack.ListIterator();
+        return new ListIterator();
     }
 
     private class ListIterator implements Iterator<Item>{

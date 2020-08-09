@@ -1,10 +1,10 @@
 /*
- * Sample usage: java-alg4 FixedCapacityStack < tobe.txt
+ * Sample usage: java FixedCapacityStack < tobe.txt
  */
 
 public class FixedCapacityStack<Item> {
     private Item[] a; //stack entries
-    private int N;      // sizes
+    private int N;      // size
 
     public FixedCapacityStack(int cap){
         a = (Item[]) new Object[cap];
@@ -20,12 +20,14 @@ public class FixedCapacityStack<Item> {
 
     public void push(Item item){
         // Add item to top of the stack
-        a[N++] = item;
+        a[N] = item;
+        N++;
     }
 
     public Item pop(){
         // Remove item from top of the stack
-        return a[--N];
+        N--;
+        return a[N];
     }
 
     public static void main(String[] args){

@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 LinkedBag < tobe.txt
+ * Sample usage: java LinkedBag < tobe.txt
  */
 
 import java.util.Iterator;
@@ -32,7 +32,7 @@ public class LinkedBag<Item> implements Iterable<Item> {
     }
 
     public Iterator<Item> iterator(){
-        return new LinkedBag.ListIterator();
+        return new ListIterator();
     }
 
     private class ListIterator implements Iterator<Item>{
