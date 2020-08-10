@@ -1,8 +1,8 @@
 /*
- * Sample usage: java-alg4 ThreeSum 1Kints.txt
- * Sample usage: java-alg4 ThreeSum 2Kints.txt
- * Sample usage: java-alg4 ThreeSum 3Kints.txt
- * Sample usage: java-alg4 ThreeSum 4Kints.txt
+ * Sample usage: java ThreeSum 1Kints.txt
+ * Sample usage: java ThreeSum 2Kints.txt
+ * Sample usage: java ThreeSum 3Kints.txt
+ * Sample usage: java ThreeSum 4Kints.txt
  */
 
 public class ThreeSum {

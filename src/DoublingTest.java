@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 DoublingTest
+ * Sample usage: java DoublingTest
  * Note: This script never stops unless interrupted
  */
 
@@ -20,7 +20,7 @@ public class DoublingTest {
         for (int N = 250; true; N += N) {
             // Print time for problem size N.
             double time = timeTrial(N);
-            StdOut.printf("%7d %5.1f\n", N, time);
+            StdOut.printf("%7d: %5.1f seconds\n", N, time);
         }
     }
 }

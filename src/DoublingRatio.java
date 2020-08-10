@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 DoublingRatio
+ * Sample usage: java DoublingRatio
  * Note: This script never stops unless interrupted
  */
 
@@ -19,8 +19,8 @@ public class DoublingRatio {
         double prev = timeTrial(125);
         for (int N = 250; true; N += N){
             double time = timeTrial(N);
-            StdOut.printf("%6d %7.1f", N, time);
-            StdOut.printf("%5.1f\n", time/prev);
+            StdOut.printf("%6d: %7.1f seconds; ", N, time);
+            StdOut.printf("ratio: %5.1f\n", time/prev);
             prev = time;
         }
     }

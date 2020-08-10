@@ -1,8 +1,8 @@
 /*
- * Sample usage: java-alg4 StopWatch 1000
- * Sample usage: java-alg4 StopWatch 2000
- * Sample usage: java-alg4 StopWatch 4000
- * Sample usage: java-alg4 StopWatch 8000
+ * Sample usage: java StopWatch 1000
+ * Sample usage: java StopWatch 2000
+ * Sample usage: java StopWatch 4000
+ * Sample usage: java StopWatch 8000
  */
 
 public class StopWatch {
@@ -25,6 +25,6 @@ public class StopWatch {
         StopWatch timer = new StopWatch();
         int cnt = ThreeSum.count(a);
         double time = timer.elapsedTime();
-        StdOut.println(cnt + " triples " + time);
+        StdOut.println(cnt + " triples " + time + " seconds");
     }
 }

@@ -1,8 +1,8 @@
 /*
- * Sample usage: java-alg4 TwoSumFast 1Kints.txt
- * Sample usage: java-alg4 TwoSumFast 2Kints.txt
- * Sample usage: java-alg4 TwoSumFast 3Kints.txt
- * Sample usage: java-alg4 TwoSumFast 4Kints.txt
+ * Sample usage: java TwoSumFast 1Kints.txt
+ * Sample usage: java TwoSumFast 2Kints.txt
+ * Sample usage: java TwoSumFast 3Kints.txt
+ * Sample usage: java TwoSumFast 4Kints.txt
  */
 
 import java.util.Arrays;
