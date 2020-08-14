@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 QuickUnionUF < tinyUF.txt
- * Sample usage: java-alg4 QuickUnionUF < mediumUF.txt
+ * Sample usage: java QuickUnionUF < tinyUF.txt
+ * Sample usage: java QuickUnionUF < mediumUF.txt
  */
 
 public class QuickUnionUF {
@@ -38,8 +38,8 @@ public class QuickUnionUF {
         // Nothing to do if p and q are already in the same component.
         if (pRoot == qRoot)
             return;
-        id[pRoot] = qRoot;
 
+        id[pRoot] = qRoot;
         count--;
     }
 

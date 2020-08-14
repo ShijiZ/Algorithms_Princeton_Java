@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 OptimalUF < tinyUF.txt
- * Sample usage: java-alg4 OptimalUF < mediumUF.txt
+ * Sample usage: java OptimalUF < tinyUF.txt
+ * Sample usage: java OptimalUF < mediumUF.txt
  */
 
 public class OptimalUF {

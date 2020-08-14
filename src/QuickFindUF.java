@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 QuickFindUF < tinyUF.txt
- * Sample usage: java-alg4 QuickFindUF < mediumUF.txt
+ * Sample usage: java QuickFindUF < tinyUF.txt
+ * Sample usage: java QuickFindUF < mediumUF.txt
  */
 
 public class QuickFindUF {
@@ -40,6 +40,7 @@ public class QuickFindUF {
         for (int i=0; i<id.length; i++)
             if (id[i] == pID)
                 id[i] = qID;
+
         count--;
     }
 

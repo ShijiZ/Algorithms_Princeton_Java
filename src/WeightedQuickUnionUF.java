@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 WeightedQuickUnionUF < tinyUF.txt
- * Sample usage: java-alg4 WeightedQuickUnionUF < mediumUF.txt
+ * Sample usage: java WeightedQuickUnionUF < tinyUF.txt
+ * Sample usage: java WeightedQuickUnionUF < mediumUF.txt
  */
 
 public class WeightedQuickUnionUF {
@@ -9,7 +9,7 @@ public class WeightedQuickUnionUF {
     private int count;    // number of components
 
     public WeightedQuickUnionUF(int N){
-        // Initialize component id array.
+        // Initialize component id and component sz array.
         count = N;
         id = new int[N];
         for (int i=0; i<N; i++)
