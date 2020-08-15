@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 SortCompare Selection Insertion 1000 100
+ * Sample usage: java SortCompare Selection Insertion 1000 100
  */
 
 public class SortCompare {

@@ -2,7 +2,7 @@
  * Sample usage: java Date 12 31 1999
  */
 
-public class Date {
+public class Date implements Comparable<Date>{
     private final int month;
     private final int day;
     private final int year;
@@ -38,6 +38,17 @@ public class Date {
     // Return the year.
     public int year(){
         return year;
+    }
+
+    @Override
+    public int compareTo(Date that) {
+        if (this.year > that.year) return 1;
+        if (this.year < that.year) return -1;
+        if (this.month > that.month) return 1;
+        if (this.month < that.month) return -1;
+        if (this.day > that.day) return 1;
+        if (this.day < that.day) return -1;
+        return 0;
     }
 
     // Returns a string representation of this date.

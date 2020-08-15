@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 Selection < tiny.txt
- * Sample usage: java-alg4 Selection < words3.txt
+ * Sample usage: java Selection < tiny.txt
+ * Sample usage: java Selection < words3.txt
  */
 
 public class Selection {

@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 Shell < tiny.txt
- * Sample usage: java-alg4 Shell < words3.txt
+ * Sample usage: java Shell < tiny.txt
+ * Sample usage: java Shell < words3.txt
  */
 
 public class Shell {

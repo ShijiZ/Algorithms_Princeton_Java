@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 Insertion < tiny.txt
- * Sample usage: java-alg4 Insertion < words3.txt
+ * Sample usage: java Insertion < tiny.txt
+ * Sample usage: java Insertion < words3.txt
  */
 
 public class Insertion {
