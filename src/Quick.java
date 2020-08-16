@@ -1,22 +1,26 @@
 /*
- * Sample usage: java-alg4 Quick < tiny.txt
- * Sample usage: java-alg4 Quick < words3.txt
+ * Sample usage: java Quick < tiny.txt
+ * Sample usage: java Quick < words3.txt
  */
 
 public class Quick {
     private static int partition(Comparable[] a, int lo, int hi){
         // Partition into a[lo..i-1], a[i], a[i+1..hi].
-        int i = lo, j = hi+1;       // left and right scan indices
+        int i = lo+1, j = hi;       // left and right scan indices
         Comparable v = a[lo];       // partitioning item
         while (true){
             // Scan right, scan left, check for scan complete, and exchange.
-            while (less(a[++i], v))
+            while (less(a[i], v)) {
+                i++;
                 if (i == hi)
                     break;
+            }
 
-            while (less(v, a[--j]))
+            while (less(v, a[j])) {
+                j--;
                 if (j == lo)
                     break;
+            }
 
             if (i >= j)
                 break;

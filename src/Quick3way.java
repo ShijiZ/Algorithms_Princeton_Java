@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 Quick3way < tiny.txt
- * Sample usage: java-alg4 Quick3way < words3.txt
+ * Sample usage: java Quick3way < tiny.txt
+ * Sample usage: java Quick3way < words3.txt
  */
 
 public class Quick3way {
@@ -10,9 +10,18 @@ public class Quick3way {
         Comparable v = a[lo];
         while (i <= gt){
             int cmp = a[i].compareTo(v);
-            if (cmp < 0) exch(a, lt++, i++);
-            else if (cmp > 0) exch(a, i, gt--);
-            else i++;
+            if (cmp < 0) {
+                exch(a, lt, i);
+                lt++;
+                i++;
+            }
+            else if (cmp > 0) {
+                exch(a, i, gt);
+                gt--;
+            }
+            else {
+                i++;
+            }
         }  // Now a[lo..lt-1] < v = a[lt..gt] < a[gt+1..hi].
         sort(a, lo, lt-1);
         sort(a, gt+1, hi);
