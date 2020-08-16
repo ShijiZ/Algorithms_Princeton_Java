@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 MergeBU < tiny.txt
- * Sample usage: java-alg4 MergeBU < words3.txt
+ * Sample usage: java MergeBU < tiny.txt
+ * Sample usage: java MergeBU < words3.txt
  */
 
 public class MergeBU {
@@ -14,14 +14,22 @@ public class MergeBU {
             aux[k] = a[k];
 
         for (int k=lo; k <= hi; k++) {   // Merge back to a[lo..hi]
-            if (i > mid)
-                a[k] = aux[j++];
-            else if (j > hi)
-                a[k] = aux[i++];
-            else if (less(aux[j], aux[i]))
-                a[k] = aux[j++];
-            else
-                a[k] = aux[i++];
+            if (i > mid) {
+                a[k] = aux[j];
+                j++;
+            }
+            else if (j > hi) {
+                a[k] = aux[i];
+                i++;
+            }
+            else if (less(aux[j], aux[i])) {
+                a[k] = aux[j];
+                j++;
+            }
+            else {
+                a[k] = aux[i];
+                i++;
+            }
         }
     }
 
