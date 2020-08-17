@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 IndexMaxPQ
+ * Sample usage: java IndexMaxPQ
  */
 
 public class IndexMaxPQ<Key extends Comparable<Key>> {
@@ -70,7 +70,8 @@ public class IndexMaxPQ<Key extends Comparable<Key>> {
 
     public int delMax(){
         int max = pq[1];
-        exch(1, N--);
+        exch(1, N);
+        N--;
         sink(1);
         qp[max] = -1;
         keys[max] = null;
@@ -94,7 +95,7 @@ public class IndexMaxPQ<Key extends Comparable<Key>> {
         // insert a bunch of strings
         String[] strings = { "it", "was", "the", "best", "of", "times", "it", "was", "the", "worst" };
 
-        IndexMaxPQ<String> pq = new IndexMaxPQ<String>(strings.length);
+        IndexMaxPQ<String> pq = new IndexMaxPQ<>(strings.length);
         for (int i = 0; i < strings.length; i++) {
             pq.insert(i, strings[i]);
         }

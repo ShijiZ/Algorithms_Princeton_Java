@@ -73,9 +73,9 @@ The .java files and their corresponding pages on the textbook including:
  - [TopM.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TopM.java) (Page 310)
  - [MaxPQ.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/MaxPQ.java) (Page 313)
  - [MinPQ.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/MinPQ.java) (Page 313)
+ - [Multiway.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Multiway.java) (Page 319)
  - [IndexMaxPQ.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/IndexMaxPQ.java) (Page 320)
  - [IndexMinPQ.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/IndexMinPQ.java) (Page 320)
- - [Multiway.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Multiway.java) (Page 321)
  - [Heap.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Heap.java) (Page 323)
 
 ## Chapter 3: Searching

@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 MinPQ < tinyPQ.txt
+ * Sample usage: java MinPQ < tinyPQ.txt
  */
 
 public class MinPQ<Key extends Comparable<Key>> {
@@ -47,13 +47,15 @@ public class MinPQ<Key extends Comparable<Key>> {
     }
 
     public void insert(Key v){
-        pq[++N] = v;
+        N++;
+        pq[N] = v;
         swim(N);
     }
 
     public Key delMin(){
         Key min = pq[1];
-        exch(1, N--);
+        exch(1, N);
+        N--;
         pq[N+1] = null;
         sink(1);
         return min;

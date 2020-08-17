@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 IndexMinPQ
+ * Sample usage: java IndexMinPQ
  */
 
 public class IndexMinPQ<Key extends Comparable<Key>> {
@@ -70,7 +70,8 @@ public class IndexMinPQ<Key extends Comparable<Key>> {
 
     public int delMin(){
         int min = pq[1];
-        exch(1, N--);
+        exch(1, N);
+        N--;
         sink(1);
         qp[min] = -1;
         keys[min] = null;

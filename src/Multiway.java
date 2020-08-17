@@ -1,5 +1,5 @@
 /*
-* java-alg4 Multiway data/m1.txt data/m2.txt data/m3.txt
+* java Multiway data/m1.txt data/m2.txt data/m3.txt
 */
 
 public class Multiway {

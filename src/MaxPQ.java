@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 MaxPQ < tinyPQ.txt
+ * Sample usage: java MaxPQ < tinyPQ.txt
  */
 
 public class MaxPQ<Key extends Comparable<Key>> {
@@ -17,7 +17,6 @@ public class MaxPQ<Key extends Comparable<Key>> {
     public int size(){
         return N;
     }
-
 
     private boolean less(int i, int j){
         return pq[i].compareTo(pq[j]) < 0;
@@ -47,20 +46,22 @@ public class MaxPQ<Key extends Comparable<Key>> {
     }
 
     public void insert(Key v){
-        pq[++N] = v;
+        N++;
+        pq[N] = v;
         swim(N);
     }
 
     public Key delMax(){
         Key max = pq[1];
-        exch(1, N--);
+        exch(1, N);
+        N--;
         pq[N+1] = null;
         sink(1);
         return max;
     }
 
     public static void main(String[] args) {
-        MaxPQ<String> pq = new MaxPQ<String>(20);
+        MaxPQ<String> pq = new MaxPQ<>(20);
         while (!StdIn.isEmpty()) {
             String item = StdIn.readString();
             if (!item.equals("-")) pq.insert(item);

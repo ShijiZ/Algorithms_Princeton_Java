@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 Heap < tiny.txt
- * Sample usage: java-alg4 Heap < words3.txt
+ * Sample usage: java Heap < tiny.txt
+ * Sample usage: java Heap < words3.txt
  */
 
 public class Heap {
@@ -11,7 +11,8 @@ public class Heap {
             sink(a, k, N);
         // sort down
         while (N > 1){
-            exch(a, 1, N--);
+            exch(a, 1, N);
+            N--;
             sink(a, 1, N);
         }
     }
@@ -23,7 +24,6 @@ public class Heap {
             if (!less(pq, k, j)) break;
             exch(pq, k, j);
             k = j;
-
         }
     }
 
