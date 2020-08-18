@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 SequentialSearchST < tinyST.txt
+ * Sample usage: java SequentialSearchST < tinyST.txt
  */
 
 public class SequentialSearchST<Key, Value> {

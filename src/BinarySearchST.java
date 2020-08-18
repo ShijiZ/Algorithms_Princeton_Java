@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 BinarySearchST < tinyST.txt
+ * Sample usage: java BinarySearchST < tinyST.txt
  */
 
 public class BinarySearchST<Key extends Comparable<Key>, Value>{

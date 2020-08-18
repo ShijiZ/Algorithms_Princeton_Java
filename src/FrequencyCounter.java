@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 FrequencyCounter 1 < tinyTale.txt
- * Sample usage: java-alg4 FrequencyCounter 8 < tale.txt
+ * Sample usage: java FrequencyCounter 1 < tinyTale.txt
+ * Sample usage: java FrequencyCounter 8 < tale.txt
  */
 
 public class FrequencyCounter {
@@ -9,7 +9,7 @@ public class FrequencyCounter {
 
         // st could be: SequentialSearchST, BinarySearchST, BST,
         // RedBlackBST, SeparateChainingST, LinearProbingHashST
-        LinearProbingHashST<String, Integer> st = new LinearProbingHashST<String, Integer>();
+        LinearProbingHashST<String, Integer> st = new LinearProbingHashST<>();
         while(!StdIn.isEmpty()){
             // Build symbol table and count frequencies.
             String word = StdIn.readString();
