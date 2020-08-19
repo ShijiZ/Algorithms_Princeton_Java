@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 RedBlackBST < tinyST.txt
+ * Sample usage: java RedBlackBST < tinyST.txt
  */
 
 public class RedBlackBST<Key extends Comparable<Key>, Value> {
