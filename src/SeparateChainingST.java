@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 SeparateChainingST < tinyST.txt
+ * Sample usage: java SeparateChainingST < tinyST.txt
  */
 
 public class SeparateChainingST<Key, Value> {

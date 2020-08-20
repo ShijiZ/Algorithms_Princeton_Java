@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 LinearProbingHashST < tinyST.txt
+ * Sample usage: java LinearProbingHashST < tinyST.txt
  */
 
 public class LinearProbingHashST<Key, Value> {
