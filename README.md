@@ -97,14 +97,13 @@ The .java files and their corresponding pages on the textbook including:
  - [LinearProbingHashST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LinearProbingHashST.java) (Page 469)
  
 ### 3.5 Applications
- - [ST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/ST.java) (Page 489)
- - [SET.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/SET.java) (Page 490)
+ - [SET.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/SET.java) (Page 489)
  - [DeDup.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DeDup.java) (Page 490)
  - [WhiteFilter.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/WhiteFilter.java) (Page 491)
  - [BlackFilter.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BlackFilter.java) (Page 491)
  - [LookupCSV.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LookupCSV.java) (Page 492)
  - [LookupIndex.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LookupIndex.java) (Page 496)
- - [FileIndex.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/FileIndex.java) (Page 500)
+ - [FileIndex.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/FileIndex.java) (Page 498)
  - [SparseVector.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/SparseVector.java) (Page 502)
 
 ## Chapter 4: Graphs

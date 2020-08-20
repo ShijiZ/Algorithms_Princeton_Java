@@ -1,11 +1,11 @@
 /*
- * Sample usage: java-alg4 BlackFilter list.txt < tinyTale.txt
+ * Sample usage: java BlackFilter list.txt < tinyTale.txt
  */
 
 public class BlackFilter {
     public static void main(String[] args){
         SET<String> set;
-        set = new SET<String>();
+        set = new SET<>();
 
         In in = new In(args[0]);
         while (!in.isEmpty())

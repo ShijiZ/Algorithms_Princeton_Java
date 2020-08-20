@@ -4,12 +4,12 @@
  */
 
 public class SymbolGraph {
-    private ST<String, Integer> st;      // String -> index
+    private RedBlackBST<String, Integer> st;      // String -> index
     private String[] keys;               // index -> String
     private Graph G;                     // the graph
 
     public SymbolGraph(String stream, String sp){
-        st = new ST<String, Integer>();
+        st = new RedBlackBST<>();
         In in = new In(stream);
         // First pass: builds the index by reading strings to associate
         // each distinct string with an index.

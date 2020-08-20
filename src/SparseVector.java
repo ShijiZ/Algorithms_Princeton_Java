@@ -1,12 +1,12 @@
 /*
- * Sample usage: java-alg4 SparseVector
+ * Sample usage: java SparseVector
  */
 
 public class SparseVector {
-    private ST<Integer, Double> st;
+    private LinearProbingHashST<Integer, Double> st;
 
     public SparseVector(){
-        st = new ST<Integer, Double>();
+        st = new LinearProbingHashST<>();
     }
 
     public int size(){

@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 SET
+ * Sample usage: java SET
  */
 
 import java.util.Iterator;

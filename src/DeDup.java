@@ -1,11 +1,11 @@
 /*
- * Sample usage: java-alg4 DeDup < tinyTale.txt
+ * Sample usage: java DeDup < tinyTale.txt
  */
 
 public class DeDup {
     public static void main(String[] args){
         SET<String> set;
-        set = new SET<String>();
+        set = new SET<>();
 
         while (!StdIn.isEmpty()){
             String key = StdIn.readString();

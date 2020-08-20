@@ -1,7 +1,7 @@
 /*
- * Sample usage: java-alg4 LookupCSV ip.csv 1 0
- * Sample usage: java-alg4 LookupCSV amino.csv 0 3
- * Sample usage: java-alg4 LookupCSV DJIA.csv 0 3
+ * Sample usage: java LookupCSV ip.csv 1 0
+ * Sample usage: java LookupCSV amino.csv 0 3
+ * Sample usage: java LookupCSV DJIA.csv 0 3
  */
 
 public class LookupCSV {
@@ -10,7 +10,7 @@ public class LookupCSV {
         int keyField = Integer.parseInt(args[1]);
         int valField = Integer.parseInt(args[2]);
 
-        ST<String, String> st = new ST<String, String>();
+        RedBlackBST<String, String> st = new RedBlackBST<>();
 
         while (in.hasNextLine()){
             String line = in.readLine();

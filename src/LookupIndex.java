@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 LookupIndex aminoI.csv ","
- * Sample usage: java-alg4 LookupIndex movie.txt "/"
+ * Sample usage: java LookupIndex aminoI.csv ","
+ * Sample usage: java LookupIndex movie.txt "/"
  */
 
 public class LookupIndex {
@@ -8,8 +8,8 @@ public class LookupIndex {
         In in = new In(args[0]);  // index datatbase
         String sp = args[1];      // separator
 
-        ST<String, LinkedQueue<String>> st = new ST<String, LinkedQueue<String>>();
-        ST<String, LinkedQueue<String>> ts = new ST<String, LinkedQueue<String>>();
+        RedBlackBST<String, LinkedQueue<String>> st = new RedBlackBST<>();
+        RedBlackBST<String, LinkedQueue<String>> ts = new RedBlackBST<>();
 
         while (in.hasNextLine()){
             String[] a = in.readLine().split(sp);
