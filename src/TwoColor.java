@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 TwoColor tinyG.txt
- * Sample usage: java-alg4 TwoColor mediumG.txt
+ * Sample usage: java TwoColor tinyG.txt
+ * Sample usage: java TwoColor mediumG.txt
  */
 
 public class TwoColor {

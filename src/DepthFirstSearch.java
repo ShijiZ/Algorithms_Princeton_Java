@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 DepthFirstSearch tinyG.txt 0
- * Sample usage: java-alg4 DepthFirstSearch mediumG.txt 0
+ * Sample usage: java DepthFirstSearch tinyG.txt 0
+ * Sample usage: java DepthFirstSearch mediumG.txt 0
  */
 
 public class DepthFirstSearch {

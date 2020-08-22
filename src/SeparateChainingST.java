@@ -40,7 +40,9 @@ public class SeparateChainingST<Key, Value> {
     }
 
     public void put(Key key, Value val){
-        st[hash(key)].put(key, val);
+        int i = hash(key);
+        if (!st[i].contains(key)) N++;
+        st[i].put(key, val);
     }
 
     public void delete(Key key){

@@ -1,23 +1,25 @@
 /*
- * Sample usage: java-alg4 SymbolGraph routes.txt " "
- * Sample usage: java-alg4 SymbolGraph movies.txt "/"
+ * Sample usage: java SymbolGraph routes.txt " "
+ * Sample usage: java SymbolGraph movies.txt "/"
  */
 
 public class SymbolGraph {
-    private RedBlackBST<String, Integer> st;      // String -> index
+    private SeparateChainingST<String, Integer> st;      // String -> index
     private String[] keys;               // index -> String
     private Graph G;                     // the graph
 
     public SymbolGraph(String stream, String sp){
-        st = new RedBlackBST<>();
+        st = new SeparateChainingST<>();
         In in = new In(stream);
         // First pass: builds the index by reading strings to associate
         // each distinct string with an index.
         while (in.hasNextLine()){
             String[] a = in.readLine().split(sp);
-            for (int i=0; i<a.length; i++)
-                if (!st.contains(a[i]))
+            for (int i=0; i<a.length; i++) {
+                if (!st.contains(a[i])) {
                     st.put(a[i], st.size());
+                }
+            }
         }
 
         // Inverted index to get keys in an array
@@ -25,7 +27,7 @@ public class SymbolGraph {
         for (String name : st.keys())
             keys[st.get(name)] = name;
 
-        // Second path, builds the graph by connecting the first vertex
+        // Second pass: builds the graph by connecting the first vertex
         // on each line to all the others.
         G = new Graph(st.size());
         in = new In(stream);

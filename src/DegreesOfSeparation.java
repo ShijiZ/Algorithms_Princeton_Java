@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 DegreesOfSeparation movies.txt "/" "Bacon, Kevin"
- * Sample usage: java-alg4 DegreesOfSeparation routes.txt " " JFK
+ * Sample usage: java DegreesOfSeparation movies.txt "/" "Bacon, Kevin"
+ * Sample usage: java DegreesOfSeparation routes.txt " " JFK
  */
 
 public class DegreesOfSeparation {
@@ -10,6 +10,7 @@ public class DegreesOfSeparation {
         Graph G = sg.G();
 
         String source = args[2];
+
         if (!sg.contains(source)){
             StdOut.println(source+" not in database.");
             return;

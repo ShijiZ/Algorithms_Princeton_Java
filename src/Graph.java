@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 Graph tinyG.txt
- * Sample usage: java-alg4 Graph mediumG.txt
+ * Sample usage: java Graph tinyG.txt
+ * Sample usage: java Graph mediumG.txt
  */
 
 public class Graph {
@@ -13,7 +13,7 @@ public class Graph {
         this.E = 0;
         adj = (LinkedBag<Integer>[]) new LinkedBag[V];  // Create array of lists
         for (int v = 0; v < V; v++)            // Initialize all lists to empty
-            adj[v] = new LinkedBag<Integer>();
+            adj[v] = new LinkedBag<>();
     }
 
     public Graph(In in){

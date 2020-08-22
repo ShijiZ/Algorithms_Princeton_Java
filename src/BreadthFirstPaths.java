@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 BreadthFirstPaths tinyG.txt 0
- * Sample usage: java-alg4 BreadthFirstPaths mediumG.txt 0
+ * Sample usage: java BreadthFirstPaths tinyG.txt 0
+ * Sample usage: java BreadthFirstPaths mediumG.txt 0
  */
 
 public class BreadthFirstPaths {

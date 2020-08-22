@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 DepthFirstPaths tinyG.txt 0
- * Sample usage: java-alg4 DepthFirstPaths mediumG.txt 0
+ * Sample usage: java DepthFirstPaths tinyG.txt 0
+ * Sample usage: java DepthFirstPaths mediumG.txt 0
  */
 
 public class DepthFirstPaths {

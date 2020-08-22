@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 CC tinyG.txt
- * Sample usage: java-alg4 CC mediumG.txt
+ * Sample usage: java CC tinyG.txt
+ * Sample usage: java CC mediumG.txt
  */
 
 public class CC {
