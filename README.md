@@ -4,7 +4,7 @@ This repository is used to store files generated during my learning process of t
 
 All .java source files are stored in directory [src](https://github.com/ShijiZ/Algorithms_Princeton_Java/tree/master/src), and all data files used to test .java files are stored in directory [data](https://github.com/ShijiZ/Algorithms_Princeton_Java/tree/master/data).
 
-The .java files and their corresponding page numbers (that the corresponding topic first appears) on the textbook including:
+The .java files and their page numbers (that the corresponding topic first appears) on the textbook including:
 
 
 ## Chapter 1: Fundamentals
