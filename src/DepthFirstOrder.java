@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 DepthFirstOrder tinyDAG.txt
+ * Sample usage: java DepthFirstOrder tinyDAG.txt
  */
 
 public class DepthFirstOrder {
@@ -20,6 +20,7 @@ public class DepthFirstOrder {
                 dfs(G, v);
     }
 
+    // This constructor is required for AcyclicSP and AcyclicLP
     public DepthFirstOrder(EdgeWeightedDigraph G){
         marked = new boolean[G.V()];
         pre = new LinkedQueue<>();

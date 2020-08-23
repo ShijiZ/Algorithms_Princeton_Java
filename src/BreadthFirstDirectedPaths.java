@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 BreadthFirstDirectedPaths tinyDG.txt 3
- * Sample usage: java-alg4 BreadthFirstDirectedPaths mediumDG.txt 3
+ * Sample usage: java BreadthFirstDirectedPaths tinyDG.txt 3
+ * Sample usage: java BreadthFirstDirectedPaths mediumDG.txt 3
  */
 
 public class BreadthFirstDirectedPaths {

@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 TransitiveClosure tinyDG.txt
- * Sample usage: java-alg4 TransitiveClosure mediumDG.txt
+ * Sample usage: java TransitiveClosure tinyDG.txt
+ * Sample usage: java TransitiveClosure mediumDG.txt
  */
 
 public class TransitiveClosure {

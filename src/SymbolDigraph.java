@@ -1,15 +1,15 @@
 /*
- * Sample usage: java-alg4 SymbolDigraph routes.txt " "
- * Sample usage: java-alg4 SymbolDigraph movies.txt "/"
+ * Sample usage: java SymbolDigraph routes.txt " "
+ * Sample usage: java SymbolDigraph movies.txt "/"
  */
 
 public class SymbolDigraph {
-    private RedBlackBST<String, Integer> st;      // String -> index
+    private SeparateChainingST<String, Integer> st;      // String -> index
     private String[] keys;               // index -> String
     private Digraph G;                     // the graph
 
     public SymbolDigraph(String stream, String sp){
-        st = new RedBlackBST<>();
+        st = new SeparateChainingST<>();
         In in = new In(stream);
         // First pass: builds the index by reading strings to associate
         // each distinct string with an index.
@@ -25,7 +25,7 @@ public class SymbolDigraph {
         for (String name : st.keys())
             keys[st.get(name)] = name;
 
-        // Second path, builds the graph by connecting the first vertex
+        // Second pass: builds the graph by connecting the first vertex
         // on each line to all the others.
         G = new Digraph(st.size());
         in = new In(stream);

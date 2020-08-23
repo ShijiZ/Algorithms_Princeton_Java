@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 KosarajuSCC tinyDG.txt
- * Sample usage: java-alg4 KosarajuSCC mediumDG.txt
+ * Sample usage: java KosarajuSCC tinyDG.txt
+ * Sample usage: java KosarajuSCC mediumDG.txt
  */
 
 public class KosarajuSCC {
@@ -36,7 +36,7 @@ public class KosarajuSCC {
     }
 
     public boolean stronglyConnected(int w, int v){
-        return  id[w]==id[v];
+        return id[w]==id[v];
     }
 
     public int id(int v){

@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 Topological jobs.txt "/"
+ * Sample usage: java Topological jobs.txt "/"
  */
 
 public class Topological {
@@ -13,6 +13,7 @@ public class Topological {
         }
     }
 
+    // This constructor is required for AcyclicSP and AcyclicLP
     public Topological(EdgeWeightedDigraph G){
         EdgeWeightedDirectedCycle cyclefinder = new EdgeWeightedDirectedCycle(G);
         if (!cyclefinder.hasCycle()){

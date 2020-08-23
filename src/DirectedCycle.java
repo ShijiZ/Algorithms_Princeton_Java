@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 DirectedCycle tinyDG.txt
- * Sample usage: java-alg4 DirectedCycle mediumDG.txt
+ * Sample usage: java DirectedCycle tinyDG.txt
+ * Sample usage: java DirectedCycle mediumDG.txt
  */
 
 public class DirectedCycle {

@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 DepthFirstDirectedPaths tinyDG.txt 3
- * Sample usage: java-alg4 DepthFirstDirectedPaths mediumDG.txt 3
+ * Sample usage: java DepthFirstDirectedPaths tinyDG.txt 3
+ * Sample usage: java DepthFirstDirectedPaths mediumDG.txt 3
  */
 
 public class DepthFirstDirectedPaths {

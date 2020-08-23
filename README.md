@@ -4,7 +4,7 @@ This repository is used to store files generated during my learning process of t
 
 All .java source files are stored in directory [src](https://github.com/ShijiZ/Algorithms_Princeton_Java/tree/master/src), and all data files used to test .java files are stored in directory [data](https://github.com/ShijiZ/Algorithms_Princeton_Java/tree/master/data).
 
-The .java files and their corresponding pages on the textbook including:
+The .java files and their corresponding page numbers (that the corresponding topic first appears) on the textbook including:
 
 
 ## Chapter 1: Fundamentals
@@ -129,6 +129,7 @@ The .java files and their corresponding pages on the textbook including:
  - [DirectedCycle.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DirectedCycle.java) (Page 574)
  - [DepthFirstOrder.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DepthFirstOrder.java) (Page 578)
  - [Topological.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Topological.java) (Page 578)
+ - [TopologicalX.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TopologicalX.java) (Page 583)
  - [KosarajuSCC.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/KosarajuSCC.java) (Page 584)
  - [TransitiveClosure.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TransitiveClosure.java) (Page 590)
 
