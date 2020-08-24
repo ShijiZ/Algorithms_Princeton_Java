@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 Edge
+ * Sample usage: java Edge
  */
 
 public class Edge implements Comparable<Edge> {

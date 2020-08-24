@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 EdgeWeightedGraph tinyEWG.txt
- * Sample usage: java-alg4 EdgeWeightedGraph mediumEWG.txt
+ * Sample usage: java EdgeWeightedGraph tinyEWG.txt
+ * Sample usage: java EdgeWeightedGraph mediumEWG.txt
  */
 
 public class EdgeWeightedGraph {

@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 LazyPrimMST tinyEWG.txt
- * Sample usage: java-alg4 LazyPrimMST mediumEWG.txt
+ * Sample usage: java LazyPrimMST tinyEWG.txt
+ * Sample usage: java LazyPrimMST mediumEWG.txt
  */
 
 public class LazyPrimMST {
@@ -10,7 +10,7 @@ public class LazyPrimMST {
     private double weight;          // edges with one endpoint in tree
 
     public LazyPrimMST(EdgeWeightedGraph G){
-        pq = new MinPQ<Edge>(1000);  // Note: The MinPQ on booksite is resizable
+        pq = new MinPQ<>(1000);  // Note: The MinPQ on booksite is resizable
         mst = new LinkedQueue<>();
         marked = new boolean[G.V()];
 
@@ -51,8 +51,9 @@ public class LazyPrimMST {
         EdgeWeightedGraph G = new EdgeWeightedGraph(in);
         LazyPrimMST mst = new LazyPrimMST(G);
 
+        StdOut.printf("Edges in MST:\n");
         for (Edge e: mst.edges())
             StdOut.println(e);
-        StdOut.printf("%.5f\n", mst.weight());
+        StdOut.printf("Total weight of MST: %.5f\n", mst.weight());
     }
 }

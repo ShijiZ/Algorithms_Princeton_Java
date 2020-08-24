@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 KruskalMST tinyEWG.txt
- * Sample usage: java-alg4 KruskalMST mediumEWG.txt
+ * Sample usage: java KruskalMST tinyEWG.txt
+ * Sample usage: java KruskalMST mediumEWG.txt
  */
 
 public class KruskalMST {
@@ -9,7 +9,7 @@ public class KruskalMST {
 
     public KruskalMST(EdgeWeightedGraph G){
         mst = new LinkedQueue<>();
-        MinPQ<Edge> pq = new MinPQ<Edge>(G.E());   // Note: The MinPQ on booksite is resizable
+        MinPQ<Edge> pq = new MinPQ<>(G.E());   // Note: The MinPQ on booksite is resizable
         for (Edge e : G.edges())
             pq.insert(e);
         WeightedQuickUnionUF uf = new WeightedQuickUnionUF(G.V());
@@ -41,8 +41,9 @@ public class KruskalMST {
         EdgeWeightedGraph G = new EdgeWeightedGraph(in);
         KruskalMST mst = new KruskalMST(G);
 
+        StdOut.printf("Edges in MST:\n");
         for (Edge e: mst.edges())
             StdOut.println(e);
-        StdOut.printf("%.5f\n", mst.weight());
+        StdOut.printf("Total weight of MST: %.5f\n", mst.weight());
     }
 }

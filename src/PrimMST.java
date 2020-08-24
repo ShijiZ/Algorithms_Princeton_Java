@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 PrimMST tinyEWG.txt
- * Sample usage: java-alg4 PrimMST mediumEWG.txt
+ * Sample usage: java PrimMST tinyEWG.txt
+ * Sample usage: java PrimMST mediumEWG.txt
  */
 
 public class PrimMST {
@@ -14,7 +14,7 @@ public class PrimMST {
         distTo = new double[G.V()];
         for (int v=0; v<G.V(); v++)
             distTo[v] = Double.POSITIVE_INFINITY;
-        pq = new IndexMinPQ<Double>(G.V());
+        pq = new IndexMinPQ<>(G.V());
         marked = new boolean[G.V()];
 
         distTo[0] = 0.0;
@@ -61,8 +61,9 @@ public class PrimMST {
         EdgeWeightedGraph G = new EdgeWeightedGraph(in);
         PrimMST mst = new PrimMST(G);
 
+        StdOut.printf("Edges in MST:\n");
         for (Edge e: mst.edges())
             StdOut.println(e);
-        StdOut.printf("%.5f\n", mst.weight());
+        StdOut.printf("Total weight of MST: %.5f\n", mst.weight());
     }
 }
