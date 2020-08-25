@@ -1,5 +1,6 @@
 /*
  * Sample usage: java-alg4 BellmanFordSP tinyEWDn.txt 0
+ * Sample usage: java-alg4 BellmanFordSP tinyEWDnc.txt 0
  */
 
 public class BellmanFordSP {
@@ -19,6 +20,7 @@ public class BellmanFordSP {
         for (int v=0; v<G.V(); v++)
             distTo[v] = Double.POSITIVE_INFINITY;
         distTo[s] = 0;
+
         queue.enqueue(s);
         onQ[s] = true;
         while (!queue.isEmpty() && !this.hasNegativeCycle()){
@@ -28,19 +30,27 @@ public class BellmanFordSP {
         }
     }
 
+    // relax vertex v (i.e. relax each edge e from v)
     private void relax(EdgeWeightedDigraph G, int v){
         for (DirectedEdge e : G.adj(v)){
-            int w = e.to();
-            if (distTo[w] > distTo[v] + e.weight()){
-                distTo[w] = distTo[v] + e.weight();
-                edgeTo[w] = e;
-                if (!onQ[w]){
-                    queue.enqueue(w);
-                    onQ[w] = true;
-                }
-            }
-            if (cost++ % G.V()==0)
+            relax(e);
+
+            cost++;
+            if (cost % G.V()==0)
                 findNegativeCycle();
+        }
+    }
+
+    // relax edge e and put other endpoints on queue if changed
+    private void relax(DirectedEdge e) {
+        int v = e.from(), w = e.to();
+        if (distTo[w] > distTo[v] + e.weight()){
+            distTo[w] = distTo[v] + e.weight();
+            edgeTo[w] = e;
+            if (!onQ[w]){
+                queue.enqueue(w);
+                onQ[w] = true;
+            }
         }
     }
 
@@ -49,6 +59,7 @@ public class BellmanFordSP {
         EdgeWeightedDigraph spt = new EdgeWeightedDigraph(V);
         for (int v=0; v<V; v++)
             if (edgeTo[v] != null)
+                // spt only contains edges belong to the negative cycle
                 spt.addEdge(edgeTo[v]);
 
         EdgeWeightedDirectedCycle finder = new EdgeWeightedDirectedCycle(spt);

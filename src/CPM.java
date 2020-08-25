@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 CPM < jobsPC.txt
+ * Sample usage: java CPM < jobsPC.txt
  */
 
 public class CPM {

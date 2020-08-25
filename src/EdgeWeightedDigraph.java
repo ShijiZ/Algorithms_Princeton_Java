@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 EdgeWeightedDigraph tinyEWD.txt
- * Sample usage: java-alg4 EdgeWeightedDigraph mediumEWD.txt
+ * Sample usage: java EdgeWeightedDigraph tinyEWD.txt
+ * Sample usage: java EdgeWeightedDigraph mediumEWD.txt
  */
 
 public class EdgeWeightedDigraph {

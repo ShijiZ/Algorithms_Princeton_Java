@@ -1,12 +1,12 @@
 /*
- * Sample usage: java-alg4 DijkstraSP tinyEWD.txt 0
- * Sample usage: java-alg4 DijkstraSP mediumEWD.txt 0
+ * Sample usage: java DijkstraSP tinyEWD.txt 0
+ * Sample usage: java DijkstraSP mediumEWD.txt 0
  */
 
 public class DijkstraSP {
-    private DirectedEdge[] edgeTo;
-    private double[] distTo;
-    private IndexMinPQ<Double> pq;
+    private DirectedEdge[] edgeTo;     // edgeTo[v] = last edge on shortest s->v path
+    private double[] distTo;           // distTo[v] = distance of shortest s->v path
+    private IndexMinPQ<Double> pq;     // priority queue of vertices
 
     public DijkstraSP(EdgeWeightedDigraph G, int s){
         edgeTo = new DirectedEdge[G.V()];
@@ -18,19 +18,25 @@ public class DijkstraSP {
         distTo[s] = 0;
 
         pq.insert(s, 0.0);
+        // relax vertices in order of distance from s
         while (!pq.isEmpty())
             relax(G, pq.delMin());
     }
 
+    // relax vertex v (i.e. relax each edge e from v)
     private void relax(EdgeWeightedDigraph G, int v){
-        for (DirectedEdge e : G.adj(v)){
-            int w = e.to();
-            if (distTo[w] > distTo[v] + e.weight()){
-                distTo[w] = distTo[v] + e.weight();
-                edgeTo[w] = e;
-                if (pq.contains(w)) pq.change(w, distTo[w]);
-                else pq.insert(w, distTo[w]);
-            }
+        for (DirectedEdge e : G.adj(v))
+            relax(e);
+    }
+
+    // relax edge e and update pq if changed
+    private void relax(DirectedEdge e) {
+        int v = e.from(), w = e.to();
+        if (distTo[w] > distTo[v] + e.weight()) {
+            distTo[w] = distTo[v] + e.weight();
+            edgeTo[w] = e;
+            if (pq.contains(w)) pq.change(w, distTo[w]);
+            else pq.insert(w, distTo[w]);
         }
     }
 

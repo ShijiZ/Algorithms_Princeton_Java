@@ -1,10 +1,10 @@
 /*
- * Sample usage: java-alg4 AcyclicSP tinyEWDAG.txt 5
+ * Sample usage: java AcyclicSP tinyEWDAG.txt 5
  */
 
 public class AcyclicSP {
-    private DirectedEdge[] edgeTo;
-    private double[] distTo;
+    private DirectedEdge[] edgeTo;     // edgeTo[v] = last edge on shortest s->v path
+    private double[] distTo;           // distTo[v] = distance of shortest s->v path
 
     public AcyclicSP(EdgeWeightedDigraph G, int s){
         edgeTo = new DirectedEdge[G.V()];
@@ -20,13 +20,18 @@ public class AcyclicSP {
             relax(G, v);
     }
 
+    // relax vertex v (i.e. relax each edge e from v)
     private void relax(EdgeWeightedDigraph G, int v){
-        for (DirectedEdge e : G.adj(v)){
-            int w = e.to();
-            if (distTo[w] > distTo[v] + e.weight()){
-                distTo[w] = distTo[v] + e.weight();
-                edgeTo[w] = e;
-            }
+        for (DirectedEdge e : G.adj(v))
+            relax(e);
+    }
+
+    // relax edge e
+    private void relax(DirectedEdge e) {
+        int v = e.from(), w = e.to();
+        if (distTo[w] > distTo[v] + e.weight()) {
+            distTo[w] = distTo[v] + e.weight();
+            edgeTo[w] = e;
         }
     }
 

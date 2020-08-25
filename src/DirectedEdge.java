@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 DirectedEdge
+ * Sample usage: java DirectedEdge
  */
 
 public class DirectedEdge {

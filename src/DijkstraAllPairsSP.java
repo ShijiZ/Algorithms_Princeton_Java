@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 DijkstraAllPairsSP tinyEWD.txt
+ * Sample usage: java DijkstraAllPairsSP tinyEWD.txt
  */
 
 public class DijkstraAllPairsSP {
@@ -24,7 +24,6 @@ public class DijkstraAllPairsSP {
     }
 
     public static void main(String[] args) {
-
         // read edge-weighted digraph
         In in = new In(args[0]);
         EdgeWeightedDigraph G = new EdgeWeightedDigraph(in);

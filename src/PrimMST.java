@@ -26,7 +26,7 @@ public class PrimMST {
     private void visit(EdgeWeightedGraph G, int v){
         // add v to tree; update data structures
         marked[v] = true;
-        for (Edge e:G.adj(v)){
+        for (Edge e : G.adj(v)){
             int w = e.other(v);
             if (marked[w]) continue;   // v-w is ineligible
             if (e.weight() < distTo[w]){

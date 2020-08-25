@@ -1,6 +1,6 @@
 /*
- * Sample usage: java-alg4 EdgeWeightedDirectedCycle tinyEWD.txt
- * Sample usage: java-alg4 EdgeWeightedDirectedCycle mediumEWD.txt
+ * Sample usage: java EdgeWeightedDirectedCycle tinyEWD.txt
+ * Sample usage: java EdgeWeightedDirectedCycle mediumEWD.txt
  */
 
 public class EdgeWeightedDirectedCycle {
@@ -14,7 +14,8 @@ public class EdgeWeightedDirectedCycle {
         marked = new boolean[G.V()];
         edgeTo = new DirectedEdge[G.V()];
         for (int v=0; v<G.V(); v++)
-            if (!marked[v]) dfs(G, v);
+            if (!marked[v])
+                dfs(G, v);
     }
 
     private void dfs(EdgeWeightedDigraph G, int v){
@@ -22,11 +23,17 @@ public class EdgeWeightedDirectedCycle {
         marked[v] = true;
         for (DirectedEdge e: G.adj(v)) {
             int w = e.to();
+            // short circuit if directed cycle found
             if (this.hasCycle()) return;
+
+            // found new vertex, so recur
             else if (!marked[w]) {
                 edgeTo[w] = e;
                 dfs(G, w);
-            } else if (onStack[w]) {
+            }
+
+            // trace back directed cycle
+            else if (onStack[w]) {
                 cycle = new LinkedStack<>();
 
                 DirectedEdge f = e;

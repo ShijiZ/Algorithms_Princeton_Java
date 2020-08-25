@@ -146,10 +146,10 @@ The .java files and their page numbers (that the corresponding topic first appea
  - [DijkstraSP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DijkstraSP.java) (Page 652)
  - [DijkstraAllPairsSP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DijkstraAllPairsSP.java) (Page 656)
  - [AcyclicSP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/AcyclicSP.java) (Page 658)
- - [EdgeWeightedDirectedCycle.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/EdgeWeightedDirectedCycle.java) (Page 658)
  - [AcyclicLP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/AcyclicLP.java) (Page 661)
  - [CPM.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/CPM.java) (Page 663)
  - [BellmanFordSP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BellmanFordSP.java) (Page 668)
+ - [EdgeWeightedDirectedCycle.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/EdgeWeightedDirectedCycle.java) (Page 677)
  - [Arbitrage.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Arbitrage.java) (Page 679)
 
 ## Chapter 5: Strings

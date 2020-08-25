@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 Arbitrage < rates.txt
+ * Sample usage: java Arbitrage < rates.txt
  */
 
 public class Arbitrage {

@@ -4,8 +4,8 @@
  */
 
 public class DirectedCycle {
-    private boolean[] marked;
-    private int[] edgeTo;
+    private boolean[] marked;           // marked[v] = has vertex v been marked?
+    private int[] edgeTo;               // edgeTo[v] = previous vertex on path to v
     private LinkedStack<Integer> cycle; // vertices on a cycle (if one exists)
     private boolean[] onStack;          // vertices on recursive call stack
 
@@ -14,24 +14,32 @@ public class DirectedCycle {
         marked = new boolean[G.V()];
         edgeTo = new int[G.V()];
         for (int v=0; v<G.V(); v++)
-            if (!marked[v]) dfs(G, v);
+            if (!marked[v])
+                dfs(G, v);
     }
 
     private void dfs(Digraph G, int v){
         onStack[v] = true;
         marked[v] = true;
         for (int w : G.adj(v))
+            // short circuit if directed cycle found
             if (this.hasCycle()) return;
-            else if (!marked[w]){
+
+            // found new vertex, so recur
+            else if (!marked[w]) {
                 edgeTo[w] = v;
                 dfs(G, w);
             }
+
+            // trace back directed cycle
             else if (onStack[w]){
                 cycle = new LinkedStack<>();
-                for (int x=v; x!=w; x=edgeTo[x])
+                for (int x=v; x!=w; x=edgeTo[x]) {
                     cycle.push(x);
+                }
                 cycle.push(w);
                 cycle.push(v);
+                return;
             }
         onStack[v] = false;
     }
