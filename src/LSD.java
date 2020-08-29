@@ -1,27 +1,36 @@
 /*
- * Sample usage: java-alg4 LSD < words3.txt
+ * Sample usage: java LSD < words3.txt
  */
 
 public class LSD {
     public static void sort(String[] a, int W){
         // Sort a[] on leading W characters.
         int N = a.length;
-        int R = 256;
+        int R = 256; // Extended ASCII alphabet size
         String[] aux = new String[N];
 
+        // Sort by key-indexed counting on dth char.
         for (int d = W-1; d >= 0; d--){
-            // Sort by key-indexed counting on dth char.
-            int[] count = new int[R+1];    // Compute frequency counts.
-            for (int i=0; i<N; i++)
-                count[a[i].charAt(d) + 1]++;
+            // Compute frequency counts.
+            int[] count = new int[R+1];
+            for (int i=0; i<N; i++){
+                int r = a[i].charAt(d) + 1;
+                count[r]++;
+            }
 
-            for (int r=0; r<R; r++)        // Transform counts to indices.
+            // Transform counts to indices.
+            for (int r=0; r<R; r++)
                 count[r+1] += count[r];
 
-            for (int i=0; i<N; i++)        // Distribute.
-                aux[count[a[i].charAt(d)]++] = a[i];
+            // Distribute.
+            for (int i=0; i<N; i++){
+                int r = a[i].charAt(d);
+                aux[count[r]] = a[i];
+                count[r]++;
+            }
 
-            for (int i=0; i<N; i++)        // Copy back.
+            // Copy back.
+            for (int i=0; i<N; i++)
                 a[i] = aux[i];
         }
     }

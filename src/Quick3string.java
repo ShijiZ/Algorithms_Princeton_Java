@@ -1,40 +1,40 @@
 /*
-* Sample usage: java-alg4 Quick3string < words3.txt
-* Sample usage: java-alg4 Quick3string < shells.txt
+* Sample usage: java Quick3string < words3.txt
+* Sample usage: java Quick3string < shells.txt
 */
 
 public class Quick3string {
     private static final int M = 15;   // cutoff for small subarrays
 
-    // return dth character of s, -1 if d = length of string
-    private static int charAt(String s, int d){
-        if (d<s.length())
-            return s.charAt(d);
-        else
-            return -1;
-    }
-
-    private static int[] partition(String[] a, int lo, int hi, int d){
-        int lt = lo, gt = hi;           // left and right scan indices
-        int v = charAt(a[lo], d);       // partitioning item
-        int i = lo + 1;
-        while (i <= gt){
-            int t = charAt(a[i], d);
-            if (t < v) exch(a, lt++, i++);
-            else if (t > v) exch(a, i, gt--);
-            else i++;
-        }
-        return new int[] {lt, v, gt};         // a[lo..lt-1] < v = a[lt..gt] < a[gt+1..hi]
-    }
-
     private static void sort(String[] a, int lo, int hi, int d){
-        if (hi <= lo + M){
+        if (hi <= lo+M){
             insertionSort(a, lo, hi, d);
-            return;}
-        int[] bounds = partition(a, lo, hi, d);
-        int lt = bounds[0];
-        int v = bounds[1];
-        int gt = bounds[2];
+            return;
+        }
+
+        // a[lo..lt-1] < v
+        // a[gt+1..hi] > v
+        // a[lt..i] == v
+        // a[i+1..gt] not yet examined
+        int lt = lo, i = lo+1, gt = hi;
+        int v = charAt(a[lo], d);
+
+        while (i <= gt) {
+            int t = charAt(a[i], d);
+            if (t < v) {
+                exch(a, lt, i);
+                lt++;
+                i++;
+            }
+            else if (t > v) {
+                exch(a, i, gt);
+                gt--;
+            }
+            else {
+                i++;
+            }
+        } // Now a[lo..lt-1] < v = a[lt..gt] < a[gt+1..hi].
+
         sort(a, lo, lt-1, d);
         if (v >= 0) sort(a, lt, gt, d+1);
         sort(a, gt+1, hi, d);
@@ -43,6 +43,14 @@ public class Quick3string {
     public static void sort(String[] a){
         StdRandom.shuffle(a);   // Eliminate dependence on input.
         sort(a, 0, a.length-1, 0);
+    }
+
+    // return dth character of s, -1 if d = length of string
+    private static int charAt(String s, int d){
+        if (d<s.length())
+            return s.charAt(d);
+        else
+            return -1;
     }
 
     private static void insertionSort(String[] a, int lo, int hi, int d){
