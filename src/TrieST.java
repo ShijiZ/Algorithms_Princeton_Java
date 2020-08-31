@@ -1,11 +1,10 @@
 /*
- * Sample usage: java-alg4 TrieST < shellsST.txt
+ * Sample usage: java TrieST < shellsST.txt
  */
 
 public class TrieST<Value> {
     private static int R = 256;   // radix
     private Node root;            // root of trie
-    private int N;                // number of keys in trie
 
     private static class Node{
         private Object val;
@@ -34,21 +33,12 @@ public class TrieST<Value> {
         // Change value associated with key if in subtrie rooted at x.
         if (x == null) x = new Node();
         if (d == key.length()){
-            if (x.val == null) N++;
             x.val = val;
             return x;
         }
         char c = key.charAt(d);   // Use dth key char to identify subtrie.
         x.next[c] = put(x.next[c], key, val, d+1);
         return x;
-    }
-
-    public int size(){
-        return N;
-    }
-
-    public boolean isEmpty(){
-        return size()==0;
     }
 
     public boolean contains(String key){
@@ -62,7 +52,6 @@ public class TrieST<Value> {
     private Node delete(Node x, String key, int d){
         if (x == null) return null;
         if (d == key.length()){
-            if (x.val != null) N--;
             x.val = null;
         }
         else {
@@ -70,8 +59,8 @@ public class TrieST<Value> {
             x.next[c] = delete(x.next[c], key, d+1);
         }
 
+        // remove subtrie rooted at x if it is completely empty
         if (x.val != null) return x;
-
         for (char c=0; c<R; c++)
             if (x.next[c] != null) return x;
         return null;
@@ -134,13 +123,11 @@ public class TrieST<Value> {
         }
 
         // print results
-        if (st.size() < 100){
-            StdOut.println("keys(\"\"):");
-            for (String key : st.keys()){
-                StdOut.println(key + " " + st.get(key));
-            }
-            StdOut.println();
+        StdOut.println("keys(\"\"):");
+        for (String key : st.keys()){
+            StdOut.println(key + " " + st.get(key));
         }
+        StdOut.println();
 
         StdOut.println("longestPrefixOf(\"shellsort\"):");
         StdOut.println(st.longestPrefixOf("shellsort"));

@@ -1,10 +1,9 @@
 /*
- * Sample usage: java-alg4 TST < shellsST.txt
+ * Sample usage: java TST < shellsST.txt
  */
 
 public class TST<Value> {
     private Node root;          // root of trie
-    private int N;              // number of keys in trie
 
     private class Node{
         char c;                 // character
@@ -15,21 +14,26 @@ public class TST<Value> {
     public Value get(String key){
         Node x = get(root, key, 0);
         if (x == null) return null;
-        return (Value) x.val;
+        return x.val;
     }
 
     private Node get(Node x, String key, int d){
         // Return value associated with key in the subtrie rooted at x.
         if (x == null) return null;
         char c = key.charAt(d);
-        if (c < x.c) return get(x.left, key, d);
-        else if (c > x.c) return get(x.right, key, d);
-        else if (d < key.length()-1) return get(x.mid, key, d+1);
+        if (c < x.c) {
+            return get(x.left, key, d);
+        }
+        else if (c > x.c) {
+            return get(x.right, key, d);
+        }
+        else if (d < key.length()-1) {
+            return get(x.mid, key, d+1);
+        }
         else return x;
     }
 
     public void put(String key, Value val){
-        if (!contains(key)) N++;
         root = put(root, key, val, 0);
     }
 
@@ -40,41 +44,51 @@ public class TST<Value> {
             x = new Node();
             x.c = c;
         }
-        if (c < x.c) x.left = put(x.left, key, val, d);
-        else if (c > x.c) x.right = put(x.right, key, val, d);
-        else if (d < key.length()-1) x.mid = put(x.mid, key, val, d+1);
+        if (c < x.c) {
+            x.left = put(x.left, key, val, d);
+        }
+        else if (c > x.c) {
+            x.right = put(x.right, key, val, d);
+        }
+        else if (d < key.length()-1) {
+            x.mid = put(x.mid, key, val, d+1);
+        }
         else x.val = val;
 
         return x;
-    }
-
-    public int size(){
-        return N;
-    }
-
-    public boolean isEmpty(){
-        return size()==0;
     }
 
     public boolean contains(String key){
         return get(key) != null;
     }
 
+    public Iterable<String> keys(){
+        LinkedQueue<String> q = new LinkedQueue<>();
+        collect(root, "", q);
+        return q;
+    }
+
+    private void collect(Node x, String pre, LinkedQueue<String> q){
+        if (x == null) return;
+        collect(x.left, pre, q);
+        if (x.val != null) q.enqueue(pre+x.c);
+        collect(x.mid, pre+x.c, q);
+        collect(x.right, pre, q);
+    }
+
     public static void main(String[] args){
         // build symbol table from standard input
-        TrieST<Integer> st = new TrieST<>();
+        TST<Integer> st = new TST<>();
         for (int i = 0; !StdIn.isEmpty(); i++){
             String key = StdIn.readString();
             st.put(key, i);
         }
 
         // print results
-        if (st.size() < 100){
-            StdOut.println("keys(\"\"):");
-            for (String key : st.keys()){
-                StdOut.println(key + " " + st.get(key));
-            }
-            StdOut.println();
+        StdOut.println("keys(\"\"):");
+        for (String key : st.keys()){
+            StdOut.println(key + " " + st.get(key));
         }
+        StdOut.println();
     }
 }
