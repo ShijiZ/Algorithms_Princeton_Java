@@ -1,12 +1,11 @@
 /*
- * Sample usage: java-alg4 RabinKarp DABRA AABRAACADABRAACAADABRA
+ * Sample usage: java RabinKarp DABRA AABRAACADABRAACAADABRA
  */
 
 import java.math.BigInteger;
 import java.util.Random;
 
 public class RabinKarp {
-    private String pat;         // Pattern (only needed for Las Vegas)
     private long patHash;       // pattern hash value
     private int M;              // pattern length
     private long Q;             // a large prime
@@ -14,7 +13,6 @@ public class RabinKarp {
     private long RM;            // R^(M-1) % Q
 
     public RabinKarp(String pat){
-        this.pat = pat;                      // save pattern (only needed for Las Vegas)
         this.M = pat.length();
         Q = longRandomPrime();
         RM = 1;
@@ -22,10 +20,6 @@ public class RabinKarp {
         for (int i=1; i<=M-1; i++)
             RM = (R*RM)%Q;
         patHash = hash(pat, M);
-    }
-
-    public boolean check(int i){
-        return true;
     }
 
     private long hash(String key, int M){
@@ -36,20 +30,23 @@ public class RabinKarp {
         return h;
     }
 
+    // Note: This code modified based on https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/
     public int search(String txt){
         // Search for hash match in txt.
         int N = txt.length();
         long txtHash = hash(txt, M);
         if (patHash == txtHash) return 0;      // Match at beginning
         for (int i = M; i<N; i++){
-            // Remove leading digit, add trailing digit, check for match
-            txtHash = (txtHash + Q - RM*txt.charAt(i-M)%Q)%Q;
+            // Remove leading digit
+            txtHash = txtHash - RM*txt.charAt(i-M);
+            // Add trailing digit
             txtHash = (txtHash*R + txt.charAt(i)) % Q;
-            if (patHash == txtHash)
-                if (check(i-M+1))
-                    return i-M+1;              // match
+            // Convert txtHash to positive if get negative value
+            if (txtHash < 0) txtHash += Q;
+            // Check for match
+            if (patHash == txtHash) return i-M+1; // match
         }
-        return N;                              // no match found
+        return N;                                 // no match found
     }
 
     private static long longRandomPrime(){

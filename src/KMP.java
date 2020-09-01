@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 KMP DABRA AABRAACADABRAACAADABRA
+ * Sample usage: java KMP DABRA AABRAACADABRAACAADABRA
  */
 
 public class KMP {
@@ -27,7 +27,7 @@ public class KMP {
         int i, j, N = txt.length(), M = pat.length();
         for (i=0, j=0; i<N && j<M; i++)
             j = dfa[txt.charAt(i)][j];
-        if (j==M) return i-M;  // found (hit end of pattern
+        if (j==M) return i-M;  // found (hit end of pattern)
         else return N;         // not found (hit end of text)
     }
 

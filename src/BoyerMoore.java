@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 BoyerMoore DABRA AABRAACADABRAACAADABRA
+ * Sample usage: java BoyerMoore DABRA AABRAACADABRAACAADABRA
  */
 
 public class BoyerMoore {
