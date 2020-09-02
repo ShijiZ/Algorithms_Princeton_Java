@@ -19,9 +19,7 @@ The .java files and their page numbers (that the corresponding topic first appea
  - [Counter.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Counter.java) (Page 84)
  - [Flips.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Flips.java) (Page 84)
  - [Accumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Accumulator.java) (Page 92)
- - [TestAcumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TestAccumulator.java) (Page 92)
  - [VisualAccumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/VisualAccumulator.java) (Page 94)
- - [TestVisualAccumulator.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TestVisualAccumulator.java) (Page 94)
  - [StaticSetOfInts.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/StaticSetOfInts.java) (Page 98)
  - [WhiteList.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/WhiteList.java) (Page 98)
 
@@ -42,7 +40,7 @@ The .java files and their page numbers (that the corresponding topic first appea
  - [StopWatch.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/StopWatch.java) (Page 174)
  - [DoublingTest.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DoublingTest.java) (Page 176)
  - [TwoSumFast.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/TwoSumFast.java) (Page 189)
- - [ThreeSumFast.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DThreeSumFast.java) (Page 190)
+ - [ThreeSumFast.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/ThreeSumFast.java) (Page 190)
  - [DoublingRatio.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DoublingRatio.java) (Page 192)
 
 ### 1.5 Case Study: Union-Find
@@ -141,7 +139,7 @@ The .java files and their page numbers (that the corresponding topic first appea
  - [KruskalMST.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/KruskalMST.java) (Page 624)
 
 ### 4.4 Shortest Paths
- - [DirecetdEdge.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DirecetdEdge.java) (Page 641)
+ - [DirectedEdge.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DirectedEdge.java) (Page 641)
  - [EdgeWeightedDigraph.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/EdgeWeightedDigraph.java) (Page 641)
  - [DijkstraSP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DijkstraSP.java) (Page 652)
  - [DijkstraAllPairsSP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/DijkstraAllPairsSP.java) (Page 656)

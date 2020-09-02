@@ -1,7 +1,7 @@
 /*
- * Sample usage: java Graph tinyDG.txt 1
- * Sample usage: java Graph tinyDG.txt 2
- * Sample usage: java Graph tinyDG.txt 1 2 6
+ * Sample usage: java DirectedDFS tinyDG.txt 1
+ * Sample usage: java DirectedDFS tinyDG.txt 2
+ * Sample usage: java DirectedDFS tinyDG.txt 1 2 6
  */
 
 public class DirectedDFS {

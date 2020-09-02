@@ -1,3 +1,7 @@
+/*
+ * Sample usage: java VisualAccumulator 1000
+ */
+
 public class VisualAccumulator {
     private double total;
     private int N;
@@ -27,5 +31,15 @@ public class VisualAccumulator {
     // Returns a string representation of this accumulator.
     public String toString(){
         return "Mean ("+N+" values): "+String.format("%7.5f",mean());
+    }
+
+    public static void main(String[] args){
+        int T = Integer.parseInt(args[0]);
+        VisualAccumulator a = new VisualAccumulator(T, 1.0);
+        for (int t = 0; t < T; t++){
+            a.addDataValue(StdRandom.uniform());
+        }
+
+        StdOut.println(a);
     }
 }

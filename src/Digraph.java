@@ -1,6 +1,6 @@
 /*
- * Sample usage: java Graph tinyDG.txt
- * Sample usage: java Graph mediumDG.txt
+ * Sample usage: java Digraph tinyDG.txt
+ * Sample usage: java Digraph mediumDG.txt
  */
 
 public class Digraph {
