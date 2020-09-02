@@ -1,5 +1,5 @@
 /*
- * Sample usage: java-alg4 GREP "(A*B|AC)D" < tinyL.txt
+ * Sample usage: java GREP (A*B|AC)D < tinyL.txt
  */
 
 public class GREP {
