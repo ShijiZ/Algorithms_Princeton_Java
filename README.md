@@ -153,6 +153,9 @@ The .java files and their page numbers (that the corresponding topic first appea
 ## Chapter 5: Strings
 
 
+- [Alphabet.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Alphabet.java) (Page 698)
+- [Count.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Count.java) (Page 699)
+
 ### 5.1 String Sorts
  - [LSD.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LSD.java) (Page 706)
  - [MSD.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/MSD.java) (Page 710)
@@ -170,3 +173,8 @@ The .java files and their page numbers (that the corresponding topic first appea
 ### 5.4 Regular Expressions
  - [NFA.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/NFA.java) (Page 794)
  - [GREP.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/GREP.java) (Page 804)
+
+### 5.5 Data Compression
+ - [BinaryDump.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BinaryDump.java) (Page 813)
+ - [Genome.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Genome.java) (Page 819)
+ - [RunLength.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/RunLength.java) (Page 822)
