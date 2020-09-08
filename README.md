@@ -178,3 +178,5 @@ The .java files and their page numbers (that the corresponding topic first appea
  - [BinaryDump.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/BinaryDump.java) (Page 813)
  - [Genome.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Genome.java) (Page 819)
  - [RunLength.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/RunLength.java) (Page 822)
+ - [Huffman.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/Huffman.java) (Page 826)
+ - [LZW.java](https://github.com/ShijiZ/Algorithms_Princeton_Java/blob/master/src/LZW.java) (Page 839)
